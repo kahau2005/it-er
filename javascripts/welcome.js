@@ -44,6 +44,6 @@ function hideNav(){
         navFrame.classList.remove('nav-background');
 }
 function gotoHomePage(){
-    window.location = 'views/home.html';
+    window.location = '/it-er/views/home.html';
 }
 
