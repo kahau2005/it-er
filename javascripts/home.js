@@ -133,8 +133,40 @@ var allCoursesData = [
                 course_requirement: 'Serial này chắc chắn dành cho các bạn muốn phá đảo game Megaman x4 rồi. Tuy nhiên, để có thể theo dõi khóa học này một cách tốt nhất bạn nên có kiến thức về LẬP TRÌNH WPF. Có từng chơi qua game Megaman x4 để hiểu các thuật ngữ "chuyên game" của mình như One hit Creep, One Hit Boss, Full Life,....tránh gây bỡ ngỡ với nội dung hướng dẫn của bài học.',
                 lessons: [
                     {
-                        name: 'Thiết kế cơ sở dữ liệu cho phần mềm Quản lý quán cafe với C# Winform',
-                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R8HRA72Orkk?si=1nZAURdBNw8ZqBgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                        name: 'Giới thiệu cheat engine và chơi thử game MegamanX4',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Jv7yiUG6Dt0?si=DswGIKp0oJxvvX2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Scan HP nhân vật và freeze máu',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/49CiTtPkPiI?si=noWJMHnz45AOL0iT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Scan HP Boss và chỉnh 1 máu',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ATBHou1iRHA?si=-j_z0n8GnmngQH9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Scan mạng và chỉnh max mạng',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/h5kDX0bz5hc?si=8PT3fbzjmERwzPe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Scan dame lên quái và chỉnh OneHit',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/p3UNV-7j64c?si=WnAwPVbiepTQgTYH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Dùng C# chỉnh bất tử máu',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/p5f0QBLWTUQ?si=32ZGqzwpy0EufUlG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Dùng C# chỉnh bất tử mạng',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zCVLCXMkCh0?si=7xJnB9CRFcK7WKlr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Dùng C# chỉnh one hit boss',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/tkvu19HY-sA?si=-cosW2A9jFRvSlHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Dùng C# chỉnh one hit quái',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/L1tY-ZqqhoE?si=LeDfvJ9y0haYLsc3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                     }
                 ]
             },
@@ -146,10 +178,39 @@ var allCoursesData = [
                 course_requirement: 'Serial này chắc chắn dành cho các bạn muốn phá đảo game Megaman x4 rồi. Tuy nhiên, để có thể theo dõi khóa học này một cách tốt nhất bạn nên có kiến thức về LẬP TRÌNH WPF. Có từng chơi qua game Megaman x4 để hiểu các thuật ngữ "chuyên game" của mình như One hit Creep, One Hit Boss, Full Life,....tránh gây bỡ ngỡ với nội dung hướng dẫn của bài học',
                 lessons: [
                     {
-                        name: 'Thiết kế cơ sở dữ liệu cho phần mềm Quản lý quán cafe với C# Winform',
-                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R8HRA72Orkk?si=1nZAURdBNw8ZqBgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                        name: 'Import assest từ design',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fgWgha8dlxE?si=vHdWOjTtTt1JEcHv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo thanh controlbar và hình logo',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5DanP5UX9Oo?si=BrT2usKIeqvlpSQW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Đổi trạng thái inject',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cFahQei7Qjo?si=C_5OjQFjf4XwG_Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Animation created by',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qX1nRgw8fz8?si=g0WoqC2oPXMt-Kew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Animation One Hit Creep button',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-ikf0II2AxY?si=CVggDHspWYttEL_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Animation Full Life button',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VnfkxyXPNyw?si=R6MKakk6TqB-1cwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Animation One Hit Boss Button',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qfXh72Y6LC0?si=GCknBrXF9HEgDO2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Animation Imortal Button',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5vGs0qTiSEg?si=4Phy0Cj_V66G1a0T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                     }
                 ]
+                
             },
             {
                 name: 'Lập trình Tool Auto Android với ADB',
@@ -159,8 +220,20 @@ var allCoursesData = [
                 course_requirement: 'Để có đủ khả năng học hiểu các nội dung được đề cập đến trong khóa học. Bạn nên có tối thiểu kiến thức về các phần: LẬP TRÌNH C# CƠ BẢN. LẬP TRÌNH KEYLOGGER VỚI C#. LẬP TRÌNH WINFORM CƠ BẢN',
                 lessons: [
                     {
-                        name: 'Thiết kế cơ sở dữ liệu cho phần mềm Quản lý quán cafe với C# Winform',
-                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R8HRA72Orkk?si=1nZAURdBNw8ZqBgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                        name: 'Giới thiệu ADB Shell trong Lập trình tool Auto Android',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yH_BdpZHFco?si=rNUF6eWyETN_FMlN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tìm hiểu ADB capture với thư viện KAutoHelper Ver2',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IE76mf0I4HU?si=2gsW2ZzizBpulTP5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Lập trình Tool Auto Android với ADB sử dụng Kautohelper ver2',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/oMYOVM3q6m4?si=e-wEAGVZuM2GwmnR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Phiên bản ADB Capture Ver2',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mVXhNvMHKug?si=CxFhCkhF7BKw_jNz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                     }
                 ]
             },
@@ -172,9 +245,25 @@ var allCoursesData = [
                 course_requirement: 'Để có đủ khả năng học hiểu các nội dung được đề cập đến trong khóa học. Bạn nên có tối thiểu kiến thức về các phần: LẬP TRÌNH C# CƠ BẢN. LẬP TRÌNH KEYLOGGER VỚI C#. LẬP TRÌNH WINFORM CƠ BẢN',
                 lessons: [
                     {
-                        name: 'Thiết kế cơ sở dữ liệu cho phần mềm Quản lý quán cafe với C# Winform',
-                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R8HRA72Orkk?si=1nZAURdBNw8ZqBgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
-                    }
+                        name: 'Cài đặt Leapdroid',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Pwk-xzvzfsU?si=apEu1vlSBqtoyCwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Change ngầm DCOM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jEZIa6Ov3wI?si=2BQ4Rw7V_zYx7G3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Mở webbrowser',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/y7Rn98aZri0?si=Ez5XFGngODvwf5OR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Vào bài viết đầu tiên trong Howkteam.com',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4__To0dbqPs?si=oye9Y9CCRcpBGX0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Hoàn thiện tool cày view',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uS2FaP0oSGE?si=i9K0MGrBnFbcI0yl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
                 ]
             },
             {
@@ -185,8 +274,44 @@ var allCoursesData = [
                 course_requirement: 'Để có đủ khả năng học hiểu các nội dung được đề cập đến trong khóa học. Bạn nên có tối thiểu kiến thức về các phần: LẬP TRÌNH C# CƠ BẢN. LẬP TRÌNH KEYLOGGER VỚI C#. LẬP TRÌNH WINFORM CƠ BẢN',
                 lessons: [
                     {
-                        name: 'Thiết kế cơ sở dữ liệu cho phần mềm Quản lý quán cafe với C# Winform',
-                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R8HRA72Orkk?si=1nZAURdBNw8ZqBgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                        name: 'Get data từ website Howkteam.com dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eDMBXsZPa14?si=4qxPqHKawrWl0N0L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Get data Howkteam kèm cookie dùng HttpRequest',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4CE67ByzpRU?si=aKeXtcnclyE28Hdx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Post data login website howkteam dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OW_gwomW0-I?si=xuxtooWzTZ_eUgrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Upload file với C# dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eR24k09k5gw?si=EjVAbBKjwo6F3SK9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Vượt normal captcha VTC dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7HNegPRBl10?si=UuZAcuZSQhh2ymM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Vượt recapthca với C# dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/V04dw6tmSk4?si=OyMZr40NKKm4o5uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Verify email với C# dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2W6zxRl1rXU?si=aBO8n1NhrmHOUrk2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tải file với C# dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ouGe6slE6Hc?si=wD0t9vC7EHB9mDmN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Fake IP với C# dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Pvzf2cEb6Es?si=mJ73X9gZ32Q4IwOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Multi threading với C# dùng Http Request',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7bjY4rwGHx4?si=ge0QLr1mahQ8Ai6r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                     }
                 ]
             }
@@ -199,7 +324,83 @@ var allCoursesData = [
         price: '250.000',
         originPrice: '300.000',
         viewer: 2637,
-        hours: 124
+        hours: 124,
+        courses: [
+            {
+                name: 'Khóa học lập trình C++ căn bản',
+                banner: '../assets/img/CPlusPlusBasic.jpg',
+                introduction: 'Hiện nay, C++ đã là cái tên rất quen thuộc trong ngành lập trình. Mặc dù C++ là ngôn ngữ lập trình đã ra đời khá lâu, nhưng không phải ai cũng có cơ hội để tìm hiểu về nó.',
+                content: 'Trong khoá học này, mình sẽ dạy các bạn về các kiến thức cơ bản nhất trong lập trình bằng ngôn ngữ C++',
+                course_requirement: 'Serial dành cho những bạn chưa có bất kỳ kiến thức gì về lập trình, hoặc những bạn mất căn bản muốn lấy lại kiến thức nền tảng lập trình, cụ thể là C++.',
+                lessons: [
+                    {
+                        name: 'Xây dựng chương trình C++ đầu tiên với Visual Studio 2015',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/q8UGqw6Cbnk?si=MjMDn4Sq7BPw3WCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cấu trúc một chương trình C++ (Structure of a program)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IXzH3pYM_bg?si=bNVcjVHrZgTujW-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Ghi chú trong C++ (Comments in C++)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-laY5MmTIE?si=doWyGN4-rHmkdHIB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Biến trong C++ (Variables in C++)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i3nJyEt42Y8?si=PNRiuIrVy8cAO0t8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Số tự nhiên và Số chấm động trong C++ (Integer, Floating point)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/wE3WhKbExN8?si=sUHJ59Gdo1IWdzaV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiểu ký tự trong C++ (Character)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xt5rScAb9lI?si=gWhG5JW52IpUlxOC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiểu luận lý và cơ bản về Câu điều kiện If (Boolean and If statements)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3-G-MLXj5n0?si=psKTK3Fxow_XSRsq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Bài toán kinh điển trong lập trình',
+                banner: '../assets/img/Algorithms-in-CPP.jpg',
+                introduction: 'Serial dành cho những bạn cần luyện tập phương pháp, tu duy lập trình. Làm quen với các bài toán trong lập trình, ngẫu nhiên từ cơ bản đến nâng cao.',
+                content: 'Trong phần này, mình sẽ cung cấp những bài toán thường gặp trong lập trình giúp bạn có được những tư duy cần thiết cho sau này',
+                course_requirement: 'Để có thể làm tốt các bài tập bạn cần học xong khóa học lập trinh C++ căn bản',
+                lessons: [
+                    {
+                        name: 'Tìm giai thừa của một số (Find Factorial of Number)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/LlvbOxM01ow?si=DN1Lj6q_HeX3zYVn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Bài toán tính tiền Taxi',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hHroO7Ez_ng?si=lQ0g6bT0WoFRHjVW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tổng các chữ số của số nguyên',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WFFBWFY4OVY?si=Oqx-y8emi-xFWTyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiểm tra số đối xứng',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sHIaddxAm5Y?si=bz6LAfCHOOKffHrq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Đếm số chữ số của số nguyên dương',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jKKxL8W9xxQ?si=o20Mu_DK_F-as5mV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tìm giai thừa của một số (Find Factorial of Number)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/LlvbOxM01ow?si=lwVG80iDcREXEDwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiểm tra số tự mãn (Narcissistic Number)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IKil5U904lE?si=hob3ynqLJegcE4v7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Lập trình Android',
@@ -208,7 +409,87 @@ var allCoursesData = [
         price: '130.000',
         originPrice: '150.000',
         viewer: 5647,
-        hours: 76
+        hours: 76,
+        courses: [
+            {
+                name: 'Khóa học lập trình Android cơ bản',
+                banner: '../assets/img/Android-basics .jpg',
+                introduction: 'Serial dành cho những bạn đã có kiến thức cơ bản về lập trình java, hoặc những bạn mất căn bản muốn lấy lại kiến thức nền tảng Android.',
+                content: 'Qua serial này, mình hi vọng các bạn sẽ: Nắm vững kiến thức nền tảng về Android để học những khóa chuyên sâu hơn. Nắm vững các coding convention, naming convention. Thành thạo các thao tác lập trình trên android studio. Biết cách tìm ra lỗi và gỡ lỗi trong lập trình. Và còn nhiều thứ khác chờ các bạn khám phá',
+                course_requirement: 'Có kiến thức cơ bản về lập trình bằng ngôn ngữ Java',
+                lessons: [
+                    {
+                        name: 'Giới thiệu lập trình Android và cài đặt môi trường',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/rcH4NbngPEk?si=maDqePRRQ85fGNem" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Các chức năng cơ bản của Android Studio',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/80ayldnOsSI?si=zIiQflkCGw4_l__E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cài đặt máy ảo Android - Có thể bạn chưa biết',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QQk0PhOxMV4?si=jdlNisp9us-31dSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cách debug cơ bản với Android Studio',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v2WKdvG2TUA?si=83sZQDKjICEynGJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Các thành phần giao diện (UI) cơ bản',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2TPjqGpgPvM?si=4bXAJ9UnBr1Qb9Vy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Intent & Manifest trong Lập trình Android',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Y6Yw3wlQIQw?si=GsJlIrVHRi81UMBi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Vòng đời của Activity trong Android',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Jk18f4_L0Ac?si=M91p9WGvCdJNvhFO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Fragment và cơ chế BackStack',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hLDurLNyMB0?si=g65gpnbKxsRCby9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Material Design và Coding Convention',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5KpN6fxOLWo?si=07OACHH2X4sUBOdF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'ListView và Custom Adapter',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/RCXYMkGB57Q?si=wbYSXoMLmnhpEbgq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Build ứng dụng Voice call/Video call',
+                banner: '../assets/img/voice-call.jpg',
+                introduction: 'Ngày nay, khi sử dụng nền tảng mạng xã hội như Facebook, Zalo chắc hẳn các bạn đều đã sử dụng tính năng gọi thoại/gọi video của họ. Để xây dựng được những ứng dụng Voice Call/Video Call như trên thì chúng ta có thể tự code server và sử dụng WebRTC để build stream media. Tuy nhiên với cách làm này, Developers sẽ phải bỏ ra nhiều chi phí, công sức để xây dựng từ đầu. Bên cạnh đó, chất lượng cuộc gọi cũng chưa thể đảm bảo 100% tới tay khách hàng.',
+                content: 'Trong khóa này Kteam sẽ hướng dẫn đến bạn những nội dung sau: Thêm Stringee SDK vào project. Kết nối Stringee server. Xử lý luồng tạo cuộc gọi đi. Xử lý luồng nhận cuộc gọi đến. Thêm các tính năng phụ: mute, đổi cam, đổi loa, tắt/mở camera. Test lại luồng tạo , nhận cuộc gọi',
+                course_requirement: 'Serial này dành cho những bạn đang muốn xây dựng ứng dụng có các tính năng giao tiếp cho users như Call Voice, Call Video với nhau. Ví dụ: app khám bệnh trực tuyến qua video call, app đặt xe cho phép tài xế và khách hàng gọi điện với nhau ngay trên app, hoặc ứng dụng banking cần gọi video để định danh eKYC,...',
+                lessons: [
+                    {
+                        name: 'Build ứng dụng Voice Call trên nền tảng iOS',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hC_3aH9hbZ8?si=bEUrkKCx2UxJdryi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Build ứng dụng Voice Call trên nền tảng Android',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cyLtemVpuuA?si=MC71IwQ99PAIhjQB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Build ứng dụng Voice Call trên nền tảng Web',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/diJEcnuQlJo?si=hKM39aEnJI7zie1j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tích hợp Push Notification trên iOS',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/UlHThxg02jw?si=DzXPrw6U0e0LmWnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tích hợp Push Notification trên Android',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/T0KdxDTqHxc?si=ruWdP-qQZlsuPdNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Lập trình Java',
@@ -217,7 +498,87 @@ var allCoursesData = [
         price: '400.000',
         originPrice: '500.000',
         viewer: 1637,
-        hours: 134
+        hours: 134,
+        courses: [
+            {
+                name: 'Lập trình Java cơ bản đến hướng đối tượng',
+                banner: '../assets/img/Java-core.png',
+                introduction: 'Với mục đích giới thiệu đến mọi người về Ngôn ngữ Java -  một ngôn ngữ lập trình khá mới mẻ so với C, C++, Java, PHP ở Việt Nam.',
+                content: 'Khoá học sẽ mang đến bạn kiến thức về: Cài đặt & sử dụng môi trường Java. Làm quen & hiểu cách sử dụng các khái niệm nền tảng trong Java. Kiến thức cơ bản như: ép kiểu, vòng lặp, mảng, …. Và tìm hiểu về Java Hướng Đối Tượng.',
+                course_requirement: 'Khóa học này yêu cầu sinh viên phải có kiến thức vững chắc về lập trình cơ bản thường được học ở trường như nhập môn, kĩ thuật lập trình, cấu trúc dữ liệu,..',
+                lessons: [
+                    {
+                        name: 'Lịch sử phát triển và tính năng của Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3gtOAlcovoQ?si=RgCTVx-5q19vWo4_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cài đặt môi trường Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KjMRn1YQcLc?si=EHu1hR6E6o3W4zeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Viết chương trình Java đầu tiên',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jIQmebw9VaA?si=ThdCnKDvOpITXmeV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Các biến trong Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/G2mCSTtBojM?si=Uonv_PX8T5q-iMxf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Các kiểu dữ liệu trong Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4k_5vWY2wps?si=WINq-Me3oIUwyGEq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Các toán tử trong Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H9FmP010A_Q?si=4hkR5W5mendNosgD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Hằng trong Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dqybUkGCaVw?si=Xl4dW1wjcNX6pfev" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Ép kiểu trong Java',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kOMiIKLCK34?si=94P3YaBt8kySDXX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                ]
+            },
+            {
+                name: 'Lập trình JavaFX Cơ bản',
+                banner: 'JavaFx_lecture.png',
+                introduction: 'JavaFX là một công nghệ phát triển giao diện máy tính trên nền tảng Java nhằm thay thế công nghệ cũ Java Swing, Java AWT với những cấu trúc và cách viết dễ sử dụng, thân thiện với lập trình viên nhiều hơn',
+                content: 'Qua khoá học JavaFX Cơ bản, Kteam sẽ cung cấp những kiến thức lập trình cơ bản về thiết kế giao diện phần mềm, giúp các bạn có thể tạo ra những phần mềm phục vụ cho học tập và công việc',
+                course_requirement: 'Khoá học này sẽ dành cho những người muốn tìm hiểu và nghiên cứu công nghệ Java, các bạn cần phải có kiến thức Java cơ bản đến hướng đối tượng. Khuyến khích những bạn ở lứa tuổi học sinh và sinh viên không thuộc chuyên ngành công nghệ thông tin muốn tìm hiểu về lập trình và áp dụng nó vào trong cuộc sống.',
+                lessons: [
+                    {
+                        name: 'Tạo chương trình cơ bản trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MNeCK0DDtC8?si=v_DO31Vzn_vOJSFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Thay đổi Scene trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/twH_cSLWbZA?si=-Rgn-IrAnSNfMf_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Thông báo Alert trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CUPgxdBGx_c?si=4UTJwijR571SzPkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Thay đổi Dialog trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/py12K5c7Pc8?si=ak25-e4NPaB0i6Lh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Checkbox trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8DNPM6kntRI?si=N9Zt6dVugaEca7Ef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Property trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/f0gGfqykR0A?si=HkEq0gvIqlOQyamK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Binding ràng buộc trong JavaFX',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qZ-_7ri24gk?si=qyVJIDliOqo8-BiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Lập trình Python',
@@ -226,16 +587,88 @@ var allCoursesData = [
         price: '300.000',
         originPrice: '350.000',
         viewer: 3532,
-        hours: 86
-    },
-    {
-        course_name: 'Lập trình PHP',
-        icon: '../assets/icon/icon-php.png',
-        banner: '../assets/img/php-course.jpg',
-        price: '200.000',
-        originPrice: '350.000',
-        viewer: 4356,
-        hours: 60
+        hours: 86,
+        courses: [
+            {
+                name: 'Machine Learning cơ bản với NumPy',
+                banner: '../assets/img/Machine-Learning.png',
+                introduction: 'Với mục đích giới thiệu đến mọi người về Machine Learning cũng như tạo điểm khởi đầu cho các bạn mới, muốn tham gia và tìm hiểu ban đầu về lĩnh vực khá hot này. Cùng Kteam tìm hiểu về Machine Learning cơ bản với ngôn ngữ Python.',
+                content: 'Trong khóa học này bạn sẽ được hướng dẫn các thuật toán Machine Learning: Supervised Learning: Regression. Supervised Learning: Classification. Normalize Feature. Regularized Machine Learning. Neural Network. Unsupervised Learning',
+                course_requirement: 'Để có đủ khả năng học hiểu các nội dung được đề cập đến trong khóa học. Bạn nên có tối thiểu kiến thức về LẬP TRÌNH PYTHON CƠ BẢN.',
+                lessons: [
+                    {
+                        name: 'Giới thiệu Machine Learning và Cài đặt NumPy',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_ZjIv2D6T40?si=5XSvTFPeOFWPDE6P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Ma trận và vector với NumPy',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/oykpEGJrf20?si=KfNVCxsUve3jM2iD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Giới thiệu Linear Regression và hàm hθ(x)',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_KfLLePcgCs?si=sKT9DWmvThWubK8C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Hàm J(θ) cho Linear Regression',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sLC88fIG9Q8?si=x-FMl6oTiAhJqpXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Thuật toán Gradient Descent cho Linear Regression',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VwIjFJ-5Zbk?si=-GkXT0mVmsS2rogo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Lập trình Python cơ bản',
+                banner: '../assets/img/Python-basic.png',
+                introduction: 'Thông qua khóa học LẬP TRÌNH PYTHON CƠ BẢN, Kteam sẽ hướng dẫn các bạn kiến thức cơ bản của Python. Để từ đó, có được nền tảng cho phép bạn tiếp tục tìm hiểu những kiến thức tuyệt vời khác của Python hoặc là một ngôn ngữ khác.',
+                content: 'Serial này dành cho các bạn muốn học, tìm hiểu về lập trình và muốn tìm một ngôn ngữ dễ học cho người mới bắt đầu, có khuynh hướng làm về mảng “Khoa học máy tính”. ',
+                course_requirement: 'Khóa học này không có những yêu cầu khắt khe về kiến thức nền. Do đó nếu bạn là một người không biết nhiều về lập trình cũng có thể tiếp cận - Bạn cũng không cần phải là một thiên tài toán học',
+                lessons: [
+                    {
+                        name: 'Giới thiệu ngôn ngữ lập trình Python',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/NZj6LI5a9vc?si=bFTABnoitSp5B67h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cài đặt môi trường Python',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jf-q_dG8WzI?si=Kq3XZlJ_ZX37Ji3h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cách chạy chương trình Python',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QFxqY8qv42E?si=kehnvaHbzZ9VEK-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cách ghi chú trong Python',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/t3dERE9T5yg?si=zHCiNN_cef7gPx81" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Biến trong Python',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nclE18Yl-kA?si=okyMMuF_lvSYziPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiểu dữ liệu số trong Python',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IAVvgqDBiv0?si=VeOHQj0cQMXLM2o-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Giải ngố AI',
+                banner: '../assets/img/understand-AI.jpg',
+                introduction: 'Series này sẽ tập trung vào ứng dụng AI, train AI bằng ngôn ngữ lập trình python. Có thể dùng google colab để tăng tốc train.',
+                content: 'Trong khóa học này mình sẽ giúp bạn hiểu được các khía cạnh chuyên sâu của AI qua ngôn ngữ Python',
+                course_requirement: 'Để học tốt khóa học bạn cần học qua python cơ bản và có kiến thức về Machine Learning',
+                lessons: [
+                    {
+                        name: 'Train model giải normal captcha với google colab',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VUEb8swYRfM?si=FMNDHfLOsFqsu_XT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Object detection - Tìm vật thể trong hình với Tensorflow',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H8g5AFpKRgE?si=NvveFKSBrS8kDci0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Lập trình JavaScript - (Website)',
@@ -244,7 +677,30 @@ var allCoursesData = [
         price: '300.000',
         originPrice: '400.000',
         viewer: 2324,
-        hours: 212
+        hours: 212,
+        courses: [
+            {
+                name: 'Khóa học JavaScript cơ bản',
+                banner: '../assets/img/Javascript-basic.png',
+                introduction: 'JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất thế giới, được sử dụng để phát triển các ứng dụng web và game, cũng như nhiều loại công việc khác',
+                content: 'Bằng việc tham gia khóa học này, bạn sẽ được học các khái niệm như biến, hàm, vòng lặp, điều kiện, các sự kiện, hàm trong JavaScript, và rất nhiều khái niệm cơ bản đến chuyên sâu khác.',
+                course_requirement: 'Khóa học này không đòi hỏi kiến thức nền tảng nhiều, nên giả sử như bạn chưa biết gì về lập trình, bạn vẫn có thể tham gia. Do đó dù bạn có là một người trái ngành cũng có thể tiếp cận - Đồng thời bạn cũng không cần phải là một thiên tài toán học để tham gia khóa học này 😉.',
+                lessons: [
+                    {
+                        name: 'Tải và cài đặt môi trường nodejs',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lwsS-ikKnPs?si=xvRii3mKvS6_FQ3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Chạy một chương trình Js cơ bản bằng node, làm việc với file text',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cbZfmmIlzaU?si=mgNRwYuTyqgaHJr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Chú thích - keywords - khối lệnh',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/iKKLyNxapP8?si=GCYwWkd49_pwX3tJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Lập trình Front - End',
@@ -253,7 +709,75 @@ var allCoursesData = [
         price: '250.000',
         originPrice: '300.000',
         viewer: 4356,
-        hours: 90
+        hours: 90,
+        courses: [
+            {
+                name: 'Lập trình Front End cơ bản với website Landing Page',
+                banner: '../assets/img/Intro_Frontend.png',
+                introduction: 'Nếu bạn yêu thích lập trình web nhưng còn lơ ngơ không biết bắt đầu từ đâu hay đã biết cơ bản mà chưa làm được một sản phẩm nhất định nào, thì đây chính là khóa học dành cho bạn – LẬP TRÌNH FRONT END CƠ BẢN VỚI WEBSITE LANDING PAGE.',
+                content: 'Trong khoá học này các bạn sẽ được hướng dẫn các kiến thức Front end cơ bản cùng cách tạo ra một website Landing Page qua các nội dung: Cú pháp HTML, CSS cơ bản. Cách sử dụng hiệu quả hình ảnh, font chữ và icon trong tạo web Landing Page. Sử dụng jquery tạo các hiệu ứng đẹp mắt cho trang web. Tạo Responsive website. Tối ưu hóa trang web. Cách làm việc với Visual Studio code',
+                course_requirement: 'Serial này dành cho tất cả những bạn yêu thích & mong muốn tìm hiểu về lập trình web, đặc biệt là các bạn muốn khởi đầu với một dự án cực kỳ căn bản.',
+                lessons: [
+                    {
+                        name: 'Tổng quan về HTML và các cú pháp cơ bản',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cA_My615iFk?si=0Hv65C33TPNCVr1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tìm hiểu về CSS và các cú pháp cơ bản của CSS',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/z699narBw_A?si=Rbrt1_I2y0p1uB7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cách sử dụng màu trong CSS',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ASpHS7BPZWA?si=OIW4I8iu5tyO40Z7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'CSS Model box',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pnIcgkTDycY?si=6mxHZBge6AWjjzLB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'ID, class trong HTML và thuộc tính float trong CSS',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Pr58FL8fvK4?si=3H0v5I0U1ms8Mbty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Thuộc tính Position trong CSS',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4EhbMESZZeo?si=7Uc0HO231P7LCj6W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Hoàn thiện trang Blog',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nJ7vdNg3PuM?si=GzOoxI3szyiSIrhb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Lập trình CSS và SASS nâng cao với dự án website Landing Page',
+                banner: '../assets/img/CSS_SASS.png',
+                introduction: 'Trong combo Front End 2019, chúng ta sẽ cùng nhau tìm hiểu và áp dụng những kiến thức chuyên sâu về CSS.',
+                content: 'Trong khóa này các bạn sẽ được hướng dẫn: Cách hoạt động của CSS. Các features mới của CSS áp dụng cho modern browser (các thế hệ browser cũ không hỗ trợ) ví dụ: clip-path, perspective, background-clip, …. Hướng dẫn Sass. Hướng dẫn cài đặt Node, giới thiệu về NPM, xây dựng môi trường để sử dụng Sass cấu trúc và thiết kế file CSS. Sử dụng BEM để đặt tên class, cấu trúc component để thiết kế website. Tự thiết kế grid system. Các nguyên tắc thiết kế responsive. Sử dụng sass tạo web responsive. Test browser supports',
+                course_requirement: 'Khóa học này không dành cho các bạn bắt đầu làm quen với HTML và CSS, vậy nếu bạn mới làm quen với CSS thì hãy tham khảo khóa FRONTEND CƠ BẢN của Kteam trước nhé!',
+                lessons: [
+                    {
+                        name: 'Code header của project Landingpage 2019',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CwPoXU2DKXo?si=Oma7x-BHhfIMDpGb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo hình cho background image với CSS Clip-path',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/idXYTvNzPoU?si=iThneNgWX8F0XI_B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo Button và hiệu ứng của nó cho Website Landing Page 2019',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KYwdIOtvWfU?si=7GeHCFSpNX9ez7ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo hiệu ứng zoom in, zoom out cho button khi hover',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_2Wl8vc4Rj8?si=sK_Yl8hYlAZp4N31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Hiệu ứng Animation cho Header website Landing Page 2019',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_IBu1pC9HdY?si=m9gJgambj9_eu07N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Phân tich thiết kế',
@@ -262,7 +786,22 @@ var allCoursesData = [
         price: '0',
         originPrice: '0',
         viewer: 4054,
-        hours: 40
+        hours: 40,
+        courses: [
+            {
+                name: '',
+                banner: '',
+                introduction: '',
+                content: '',
+                course_requirement: '',
+                lessons: [
+                    {
+                        name: '',
+                        data: ''
+                    }
+                ]
+            }
+        ]
     },
     {
         course_name: 'Chia sẻ kinh nghiệm',
@@ -271,7 +810,22 @@ var allCoursesData = [
         price: '0',
         originPrice: '0',
         viewer: 3454,
-        hours: 20
+        hours: 20,
+        courses: [
+            {
+                name: '',
+                banner: '',
+                introduction: '',
+                content: '',
+                course_requirement: '',
+                lessons: [
+                    {
+                        name: '',
+                        data: ''
+                    }
+                ]
+            }
+        ]
     },
 ];
 
