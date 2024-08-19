@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon/app_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="..//styles/home.css">
+    <title>IT-ER</title>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-icon-bg nav-icon-no-bg">
+            <img class="nav-icon" src="../assets/icon/app_icon.png" alt="app-icon">
+        </div>
+        <div>
+            <div onclick="gotoHome()" class="nav-icon-bg">
+                <img class="nav-icon" src="../assets/icon/icon-home.png" alt="home-icon">
+            </div>
+            <div class="nav-icon-bg">
+                <img class="nav-icon" src="../assets/icon/icon_schedule.png" alt="schedule-icon">
+            </div>
+            <div class="nav-icon-bg">
+                <img class="nav-icon" src="../assets/icon/icon_book.png" alt="book-icon">
+            </div>
+            <div onclick="gotoAll()" class="nav-icon-bg">
+                <img class="nav-icon" src="../assets/icon/icon_more.png" alt="more-icon">
+            </div>
+        </div>
+        <div>
+            <div class="nav-icon-bg">
+                <img class="nav-icon" src="../assets/icon/icon-setting.png" alt="setting-icon">
+            </div>
+            <div class="nav-icon-bg nav-icon-no-bg">
+                <img class="nav-icon avt" src="../assets/img/avt.jpg" alt="demo-avt">
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="home" class="content-area">
+            <div class="header">
+                <img src="../assets/img/home-contain-bg.jpg" alt="contain-bg">
+                <div class="blur-effect"></div>
+                <div class="text-container">
+                    <p>Chào, Admin!</p>
+                    <p>Chúc bạn học tập vui vẻ</p>
+                </div>
+                <div class="search-container">
+                    <input placeholder="Tìm kiếm khóa học, bài giảng,..." type="search" name="search" id="search">
+                    <img class="icon-search" src="../assets/icon/icon-search.png" alt="search">
+                </div>
+            </div>
+            <div class="nav">
+                <div>
+                    <img src="../assets/icon/icon_more.png" alt="IC ALL">
+                    <p>Tất cả</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-dot-net.png" alt="IC ALL">
+                    <p>Lập trình C# .NET</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-cpp.png" alt="IC ALL">
+                    <p>Lập trình C++</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-android-app.webp" alt="IC ALL">
+                    <p>Lập trình Android</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-java.svg" alt="IC ALL">
+                    <p>Lập trình Java</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-python.webp" alt="IC ALL">
+                    <p>Lập trình Python</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-php.png" alt="IC ALL">
+                    <p>Lập trình PHP</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-javascript.png" alt="IC ALL">
+                    <p>JavaScript - (Website)</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-font-end.png" alt="IC ALL">
+                    <p>Lập trình Front - End</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-analyst.jpg" alt="IC ALL">
+                    <p>Phân tích thiết kế</p>
+                </div>
+                <div>
+                    <img src="../assets/icon/icon-share-exp.png" alt="IC ALL">
+                    <p>Chia sẽ kinh nghiệm</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="course-container">
+                    <p>Các khóa học phổ biến</p>
+                    <div class="courses-show">
+                       
+                    </div>
+                </div>
+                <div class="course-container">
+                    <p>Đã xem</p>
+                    <div class="lesson-container">
+                        <div class="course-card">
+                            <img src="../assets/img/QuanLyQuanCaFe.jpg" alt="QLCF banner">
+                            <p>Lập trình phần mềm quản lý cafe với C#</p>
+                            <p>Tiến độ: 60%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/flappy-bird-course-website.jpg" alt="Flappy Bird">
+                            <p>Lập trình game Flappy bird với unity3D</p>
+                            <p>Tiến độ: 90%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/so-tay-Javascript-howkteam.png" alt="So tay JS">
+                            <p>Sổ tay JavaScript</p>
+                            <p>Tiến độ: 80%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/Ky-thuat-Cracking.jpg" alt="Ky thuat cracking">
+                            <p>Kỹ thuật Cracking</p>
+                            <p>Tiến độ: 30%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/Cau-truc-du-lieu-va-giai-thuat.jpg" alt="CTDL GT">
+                            <p>Cấu trúc dữ liệu và giải thuật</p>
+                            <p>Tiến độ: 100%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="all" class="content-area">
+            <div class="header">
+                <img src="../assets/img/home-contain-bg.jpg" alt="contain-bg">
+                <div class="blur-effect"></div>
+                <div class="text-container">
+                    <p>Chào, Admin!</p>
+                    <p>Chúc bạn học tập vui vẻ</p>
+                </div>
+                <div class="search-container">
+                    <input placeholder="Tìm kiếm khóa học, bài giảng,..." type="search" name="search" id="search">
+                    <img class="icon-search" src="../assets/icon/icon-search.png" alt="search">
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px;" class="content">
+                <div class="course-container">
+                    <div class="title">
+                        <div>
+                            <img src="../assets/icon/icon-dot-net.png" alt="dot net icon">
+                            <p>Lập trình C# .NET</p>
+                        </div>
+                        <span>Xem thêm</span>
+                    </div>
+                    <div class="courses-show">
+                        <div class="course-card">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="course-container">
+                    <p>Đã xem</p>
+                    <div class="lesson-container">
+                        <div class="course-card">
+                            <img src="../assets/img/QuanLyQuanCaFe.jpg" alt="QLCF banner">
+                            <p>Lập trình phần mềm quản lý cafe với C#</p>
+                            <p>Tiến độ: 60%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/flappy-bird-course-website.jpg" alt="Flappy Bird">
+                            <p>Lập trình game Flappy bird với unity3D</p>
+                            <p>Tiến độ: 90%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/so-tay-Javascript-howkteam.png" alt="So tay JS">
+                            <p>Sổ tay JavaScript</p>
+                            <p>Tiến độ: 80%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/Ky-thuat-Cracking.jpg" alt="Ky thuat cracking">
+                            <p>Kỹ thuật Cracking</p>
+                            <p>Tiến độ: 30%</p>
+                        </div>
+                        <div class="course-card">
+                            <img src="../assets/img/Cau-truc-du-lieu-va-giai-thuat.jpg" alt="CTDL GT">
+                            <p>Cấu trúc dữ liệu và giải thuật</p>
+                            <p>Tiến độ: 100%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../javascripts/home.js"></script>
+</body>
+</html>
