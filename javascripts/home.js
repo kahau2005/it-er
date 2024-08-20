@@ -1,6 +1,5 @@
 const popularCoursesParent = document.querySelector('.content-area .content .course-container .courses-show');
-const allPageElements = document.querySelectorAll('#all .content .course-container');
-
+const allPageElements = document.querySelector('#all .content');
 
 var allCoursesData = [
     {
@@ -543,7 +542,7 @@ var allCoursesData = [
             },
             {
                 name: 'Lập trình JavaFX Cơ bản',
-                banner: 'JavaFx_lecture.png',
+                banner: '../assets/img/JavaFx_lecture.png',
                 introduction: 'JavaFX là một công nghệ phát triển giao diện máy tính trên nền tảng Java nhằm thay thế công nghệ cũ Java Swing, Java AWT với những cấu trúc và cách viết dễ sử dụng, thân thiện với lập trình viên nhiều hơn',
                 content: 'Qua khoá học JavaFX Cơ bản, Kteam sẽ cung cấp những kiến thức lập trình cơ bản về thiết kế giao diện phần mềm, giúp các bạn có thể tạo ra những phần mềm phục vụ cho học tập và công việc',
                 course_requirement: 'Khoá học này sẽ dành cho những người muốn tìm hiểu và nghiên cứu công nghệ Java, các bạn cần phải có kiến thức Java cơ bản đến hướng đối tượng. Khuyến khích những bạn ở lứa tuổi học sinh và sinh viên không thuộc chuyên ngành công nghệ thông tin muốn tìm hiểu về lập trình và áp dụng nó vào trong cuộc sống.',
@@ -940,8 +939,13 @@ var allCoursesData = [
 ];
 
 loadPopularCourse();
-loadDotNetCourses();
-
+loadAllCourses();
+function loadAllCourses(){
+    allPageElements.innerHTML = '';
+    for(var i =0 ;i < allCoursesData.length; i++){
+        allPageElements.innerHTML += AllCourseFrame(allCoursesData[i]);
+    }
+}
 function loadPopularCourse(){
         var data = sortByViewer();
         popularCoursesParent.innerHTML ='';
@@ -949,12 +953,12 @@ function loadPopularCourse(){
             popularCoursesParent.innerHTML += popularCourseCard(data[i]);
         }
 }
-function loadDotNetCourses(){
-    const parent = allPageElements[0].querySelector('.courses-show');
-    parent.innerHTML = '';
-    for(var i = 0; i < allCoursesData[0].courses.length; i++){
-        parent.innerHTML += lessonCard(allCoursesData[0].courses[i]);
+function loadCourses(data){
+    var html = '';
+    for(var i = 0; i < data.length; i++){
+        html += lessonCard(data[i]);
     }
+    return html;
 }
 function popularCourseCard(data){
     return `<div class="course-card">
@@ -975,6 +979,7 @@ function popularCourseCard(data){
                         </div>`
 }
 function lessonCard(data){
+    console.log(data);
     return `<div class="course-card">
                             <img src="${data.banner}" alt="android-course">
                             <p class="course-title">${data.name}</p>
@@ -983,6 +988,22 @@ function lessonCard(data){
                                 <p>${data.lessons.length} bài học</p>
                             </div>
                         </div>`
+}
+function AllCourseFrame(data){
+    return `<div class="course-container">
+                    <div class="title">
+                        <div>
+                            <img src="${data.icon}" alt="dot net icon">
+                            <p>${data.course_name}</p>
+                        </div>
+                        <span>Xem thêm</span>
+                    </div>
+                    <div class="courses-show">
+                        
+                            ${loadCourses(data.courses)}
+                        
+                    </div>
+                </div>`;
 }
 function sortByViewer(){
     var a = allCoursesData;

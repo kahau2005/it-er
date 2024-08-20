@@ -223,6 +223,8 @@ main::-webkit-scrollbar{
 .content-area .content .course-container .title > div > img{
     width: 50px;
     height: 50px;
+    border-radius: 100%;
+    background-color: white;
 }
 .content-area .content .course-container .title > div > p{
     margin-left: 10px;
