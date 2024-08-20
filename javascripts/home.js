@@ -1,6 +1,7 @@
 const popularCoursesParent = document.querySelector('.content-area .content .course-container .courses-show');
 const allPageElements = document.querySelector('#all .content');
-
+const mainContainer = document.querySelector('main');
+const courseDetailParent = document.getElementById('course-details');
 var allCoursesData = [
     {
         course_name: 'Lập trình C# .Net',
@@ -938,8 +939,21 @@ var allCoursesData = [
     },
 ];
 
+
+
+
 loadPopularCourse();
 loadAllCourses();
+
+
+
+function redirect(element){
+    const data = JSON.parse(element.getAttribute('data-course'));
+    console.log(mainContainer);
+    console.log(data);
+    courseDetailParent.innerHTML = loadCourseDetails(data);
+    window.location = '#course-details'
+}
 function loadAllCourses(){
     allPageElements.innerHTML = '';
     for(var i =0 ;i < allCoursesData.length; i++){
@@ -952,6 +966,47 @@ function loadPopularCourse(){
         for(var i = 0; i < 5;i++){
             popularCoursesParent.innerHTML += popularCourseCard(data[i]);
         }
+}
+function loadCourseDetails(data){
+    return `<div class="header">
+                <img src="${data.banner}" alt="contain-bg">
+                <div class="blur-effect"></div>
+                <div class="text-container">
+                    <p>${data.course_name}</p>
+                    <div class="course-info">
+                        <div class="lessons">
+                            <img src="../assets/icon/icon-book.png" alt="">
+                            <p>${data.courses.length} bài học</p>
+                        </div>
+                        <div class="viewer">
+                            <img src="../assets/icon/icon-viewer.png" alt="">
+                            <p>${data.viewer}</p>
+                        </div>
+                        <div class="duration">
+                            <img src="../assets/icon/icon-timer.png" alt="">
+                            <p>${data.hours} giờ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="back-icon-container">
+                    <img onclick='gotoAll()' src="../assets/icon/left-arrow.png" alt="">
+                    <p>Tất cả khóa học</p>
+                </div>
+                <div class="price">
+                    <div>
+                        <p class="course-price">${data.price} &#273</p>
+                        <p class="course-price-discount">${data.originPrice} &#273</p>
+                    </div>
+                    <div class="btn-buy">Mua Ngay</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="course-container">
+                    <div class="lesson-container wrap-items">
+                         ${loadCourses(data.courses)}
+                    </div>
+                </div>
+            </div>`;
 }
 function loadCourses(data){
     var html = '';
@@ -979,7 +1034,6 @@ function popularCourseCard(data){
                         </div>`
 }
 function lessonCard(data){
-    console.log(data);
     return `<div class="course-card">
                             <img src="${data.banner}" alt="android-course">
                             <p class="course-title">${data.name}</p>
@@ -996,7 +1050,7 @@ function AllCourseFrame(data){
                             <img src="${data.icon}" alt="dot net icon">
                             <p>${data.course_name}</p>
                         </div>
-                        <span>Xem thêm</span>
+                        <span onclick='redirect(this)' data-course='${JSON.stringify(data)}'>Xem thêm</span>
                     </div>
                     <div class="courses-show">
                         

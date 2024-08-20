@@ -308,6 +308,85 @@ main::-webkit-scrollbar{
     width: 300px;
     height: 150px;
 }
+#course-details .header .back-icon-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 20px;
+    top: 20px;
+}
+#course-details .header .back-icon-container img{
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+    background-color: #5e5e5e52;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+#course-details .header .back-icon-container p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+#course-details .header .text-container .course-info{
+    display: flex;
+    background-color: #464646ab;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+#course-details .header .text-container .course-info > div{
+    display: flex;
+    align-items: center;
+}
+#course-details .header .text-container .course-info > div > img{
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+}
+#course-details .header .text-container .course-info > div > p{
+    font-size: 18px;
+    
+}
+#course-details .header .price{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    top: 20px;
+    bottom: 10px;
+    justify-content: space-between;
+    align-items: end;
+}
+#course-details .header .price .course-price{
+    font-size: 30px;
+    text-align: right;
+}
+#course-details .header .price .course-price-discount{
+    font-size: 18px;
+    text-align: right;
+    text-decoration: line-through;
+    color: rgb(155, 211, 0);
+}
+.btn-buy{
+    padding: 20px 30px;
+    background-color: #29292952;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px white solid;
+    cursor: pointer;
+    transition: transform .1s linear;
+}
+.btn-buy:hover{
+    transform: translateY(-10px);
+}
+.wrap-items{
+    overflow: hidden;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
 
 .process-area{
     /* flex */
