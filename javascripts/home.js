@@ -789,15 +789,121 @@ var allCoursesData = [
         hours: 40,
         courses: [
             {
-                name: '',
-                banner: '',
-                introduction: '',
-                content: '',
-                course_requirement: '',
+                name: 'Phân tích thiết kế phần mềm',
+                banner: '../assets/img/PTTK.jpg',
+                introduction: 'Khóa học phân tích thiết kế phần mềm. Giúp bạn nắm được tư duy phân tích. Thiết kế một hệ thống. Không chỉ phần mềm, mà cả cho cuộc sống của bạn.',
+                content: 'Qua khóa học này các bạn sẽ nắm những kiến thức: Các quy trình phát triển phần mềm. Tạo lược đồ Use-Case. Tạo lược đồ Activity Diagram. Tạo ER Diagram. Các chiến lược phân tích ERD. Từ mô hình Thực thể kết hợp thành mô hình quan hệ. Tạo Cơ Sở dữ liệu từ mô hình quan hệ. Thiết kế giao diện người dùng. Kiến trúc phần mềm',
+                course_requirement: 'Khóa học chủ yếu chia sẽ kinh nghiệm về phân tích thiết kế phần mềm nên sẽ không có yêu cầu cho khóa học này',
                 lessons: [
                     {
-                        name: '',
-                        data: ''
+                        name: 'Giới thiệu về Phân tích thiết kế phần mềm',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VLL77XefAHQ?si=71kR-0wHOIs9KPkt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo lược đồ Use - Case trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/46S10eiEvms?si=cwwY98kijxSBO8CH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo Activity - Diagram trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QRar3e5Hiow?si=p0u5oI2Aw7UEQLcp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Giới thiệu về ER Diagram trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KmqOajhoqAg?si=0pRAN66xU4upfuF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Chiến lược phân tích ER Diagram trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qEG28OqC_wI?si=3FH008b40Ar2cAnq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Chiến lược phân tích dữ liệu trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2y2DFun29so?si=HuQ4B0x-yFcx7nC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo cơ sở dữ liệu từ lược đồ quan hệ trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_JOAMwEZ0Fw?si=f7CNbIpBlDs5pE3l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Thiết kế giao diện người dùng trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mBZhl6a7cpg?si=pQF2Blg8CJBMEbDP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiến trúc và phân chia dữ liệu trong PTTKPM',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eD_hHQvjWFs?si=zjAMqRnfwbDpFkep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Sử dụng SQL server',
+                banner: '../assets/img/SQL-Tutorials.png',
+                introduction: 'Với hệ thống nhỏ, chúng ta hoàn toàn có thể lưu trữ dữ liệu bằng file để khi tắt ứng dụng dữ liệu chúng ta vẫn còn được lưu giữ. Nhưng với hệ thống lớn, truy vấn tìm kiếm, thao tác với dữ liệu trên file không còn dễ dàng và hiệu quả nữa. Và SQL ra đời để giải quyết vấn đề đó.',
+                content: 'Qua serial này, Kteam hy vọng các bạn sẽ: Nắm vững kiến thức nền tảng về SQL server để học những khóa chuyên sâu hơn. Biết cách sử dụng ngôn ngữ truy vấn SQL và T-SQL với SQL sevrer.',
+                course_requirement: 'Serial này dành cho những bạn chưa có bất kỳ kiến thức gì về lập trình, hoặc những bạn mất căn bản muốn lấy lại kiến thức nền tảng về SQL Server.',
+                lessons: [
+                    {
+                        name: 'Giới thiệu SQL và SQL server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2fanjSYVElY?si=mMdFLJ6sDahaSZsx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Khởi tạo Database trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XUIm5VQlpJM?si=70RTF77x1tWu3BZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Khởi tạo, xóa, sửa Table trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TrLKdQH_Qng?si=whfe_3PQk2Cu2D-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Kiểu dữ liệu trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_40bzGOHloo?si=9Zs2Weq-Dl2m2J9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Insert, Delete, Update Table trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/viVwygluDDY?si=Xd5lmzZiMMqn1kXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Tạo khóa chính trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/38FxjicRCS8?si=3iecEwOEljTfBeAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Khóa ngoại trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nm6qg6sinLU?si=rO77O312bSLABvqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Truy vấn cơ bản trong SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/iZ9kQIke04A?si=EZKoigVtj_wWeHK5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    }
+                ]
+            },
+            {
+                name: 'Khóa Thực chiến SQL cùng Kteam - Dự án quản lý sinh viên',
+                banner: '../assets/img/TC-SQL.png',
+                introduction: 'Ở combo Thực chiến SQL, chúng ta sẽ cùng nhau phân tích các CSDL đó từ đặc tả và ứng dụng các kiến thức đã học ở hai khóa trên vào việc giải quyết các yêu cầu thực tế của một CSDL. Trong bộ khóa học này các bạn sẽ đi qua các kiến thức từ cơ bản đến nâng cao qua các dự án khác nhau.',
+                content: 'Ở phần này, chúng ta sẽ cùng nhau tìm hiểu Dự án Quản lý sinh viên cực kỳ cơ bản.',
+                course_requirement: 'Bạn sẽ là đối tượng phù hợp của khóa này nếu: Bạn mất căn bản và muốn học lại SQL từ đầu. Bạn đã học qua lý thuyết mà chưa ứng dụng được bao nhiêu. Bạn muốn củng cố lại kiến thức đã học từ lâu.',
+                lessons: [
+                    {
+                        name: 'Phân tích đặc tả dự án Quản lý sinh viên',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/L0xh7a_tdYo?si=k_xuaQJ0_NTtKzeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Cài đặt CSDL và xác định khóa chính, khóa ngoại trong dự án Quản lý sinh viên',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/BPkf0quLeso?si=P6D5vWPw36TB7mm1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Nhập dữ liệu và thực hành truy vấn với CSDL dự án Quản lý sinh viên',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kjea93a4haA?si=PR16CxwNEAoOyrck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Functions trong dự án quản lý sinh viên',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/M1drqLAjBXc?si=amykr6TW8yrR52cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Stored Procedure trong dự án quản lý sinh viên với SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ESs78ZdCETg?si=5o4QnN1-Xjo-i9mY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Ràng buộc trong CSDL Quản lý sinh viên với SQL Server',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/rUpOmHYKvKg?si=OHP8wYVchx07qbw3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                     }
                 ]
             }
@@ -813,15 +919,19 @@ var allCoursesData = [
         hours: 20,
         courses: [
             {
-                name: '',
-                banner: '',
-                introduction: '',
-                content: '',
-                course_requirement: '',
+                name: 'Dành cho người mới',
+                banner: '../assets/img/IT-Beginer.jpg',
+                introduction: 'Trong khóa học này bạn sẽ được chia sẽ kinh nghiệm cho những bạn mới bắt đầu lập trình.',
+                content: 'Những kinh nghiệm từ khóa học giúp bạn có một lối tư duy mở cũng như có một cái nhìn tổng quát về lĩnh vực công nghệ thông tin',
+                course_requirement: 'Không có yêu cầu đặc biệt cho khóa học này',
                 lessons: [
                     {
-                        name: '',
-                        data: ''
+                        name: 'Các công việc của ngành lập trình và hành trang cần thiết khi xin việc IT',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/aVGTP8uHa34?si=7rhpiQnimSJL4W-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    },
+                    {
+                        name: 'Học lập trình bắt đầu từ đâu???',
+                        data: '<iframe width="560" height="315" src="https://www.youtube.com/embed/SWeJtSAB4nM?si=FyrDngQqpIVPUmM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                     }
                 ]
             }
