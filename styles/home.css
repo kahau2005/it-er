@@ -283,6 +283,7 @@ main{
     width: 100%;
     height: 75%;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .content-area .content .course-container{
