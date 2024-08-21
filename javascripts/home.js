@@ -3,6 +3,7 @@ const allPageElements = document.querySelector('#all .content');
 const mainContainer = document.querySelector('main');
 const courseDetailParent = document.getElementById('course-details');
 const navCourseContainer = document.querySelector('#home .nav');
+const notificationPanel =  document.querySelector('.notification-panel');
 var allCoursesData = [
     {
         course_name: 'Lập trình C# .Net',
@@ -939,7 +940,7 @@ var allCoursesData = [
         ]
     },
 ];
-
+var isNotiPanelShow = false;
 
 
 loadNavCourses();
@@ -947,6 +948,11 @@ loadPopularCourse();
 loadAllCourses();
 
 
+
+function showNotificationPanel(){
+    isNotiPanelShow = !isNotiPanelShow;
+    notificationPanel.style.display = (isNotiPanelShow) ? 'block' : 'none';
+}
 function loadNavCourses(){
     navCourseContainer.innerHTML = `<div onclick="gotoAll()">
                                         <img src="../assets/icon/icon_more.png" alt="IC ALL">

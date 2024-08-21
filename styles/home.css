@@ -70,22 +70,108 @@ body{
     
 }
 .nav-icon-bg{
+    position: relative;
+    display: flex;
     background-color: var(--icon-unactive-background);
     border-radius: 100%;
     padding: var(--nav-items-padding);
-    scale: 0.5;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.nav-icon-bg:hover .nav-icon{
+    width: 40px;
+}
+.notification-panel{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.541);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 500px;
+    height: 700px;
+    left: 70px;
+    bottom: -20px;
+    position: absolute;
+    z-index: 2;
+    cursor: auto;
+    padding: 30px;
+}
+.more-notif{
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    right: 10px;
+    font-size: 15px;
+    background-color: rgba(202, 202, 202, 0.507);
     cursor: pointer;
 }
+.notification-panel::-webkit-scrollbar{
+    display: none;
+}
+.notif-container{
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 82%;
+    width: 90%;
+}
+.notif-container::-webkit-scrollbar{
+    border: 0;
+}
+.notif-frame{
+    display: flex;
+    align-items: center;
+    background-color: #6b6b6b6b;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.notif-frame div{
+    margin-left: 15px;
+}
+.notif-frame div p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.notif-frame div p:last-child{
+    color: #dbdbdb;
+    font-size: 15px;
+}
+.notif-frame img{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px;
+}
+.notif-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.notification-icon::after{
+    content: '';
+    border: 8px red solid;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
 .nav-icon{
-    width: var(--nav-icon-size);
+    width: 30px;
+    transition: width .1s linear;
 }
 .nav-icon-no-bg{
     background-color: transparent;
-    scale: 1;
 }
 .avt {
     border-radius: 100%;
-   
+    width: 50px;
 }
 main{
     scroll-behavior: smooth;
@@ -201,7 +287,7 @@ main::-webkit-scrollbar{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 75%;
     overflow-y: scroll;
 }
 .content-area .content::-webkit-scrollbar{
@@ -390,128 +476,4 @@ main::-webkit-scrollbar{
     overflow: hidden;
     width: 100vw;
     flex-wrap: wrap;
-}
-
-
-.process-area{
-    /* flex */
-    display: flex; 
-    flex-direction: column;
-    background-color: var(--nav-background);
-    border-radius: var(--nav-corners);
-    padding: var(--nav-items-padding);
-    width: 400px;
-}
-.process-user-info{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-.process-user-info .avt{
-    width: var(--process-avt-size);
-    border: var(--process-avt-border-width) solid var(--process-avt-border-color);
-    margin: var(--process-avt-margin);
-}
-.process-user-info .name{
-    font-size: var(--process-info-name-size);
-}
-.process-friends{
-    display: flex;
-    align-items: center;
-    background-color: var(--process-frame-friends-bg);
-    padding: var(--process-frame-padding);
-    border-radius: var(--process-frame-corner);
-    cursor: pointer;
-}
-.process-friends .icon{
-    width: var(--process-friends-icon-size);
-    filter: invert(100);
-}
-.process-friends img{
-    width: var(--process-friends-next-icon-size);
-    filter: invert(100);
-}
-.process-friends p{
-    width: 100%;
-    font-size: var(--process-friends-text-size);
-    margin-left: var(--process-friends-text-margin-left);
-}
-.process-statistic{
-    display: flex;
-    flex-direction: column;
-    padding: var(--process-frame-padding);
-    margin-top: var(--process-statistic-margin-top);
-    background-color: var(--process-frame-friends-bg);
-    border-radius: var(--process-frame-corner);
-}
-.process-statistic .header{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.process-statistic .header .title{
-    display: flex;
-    justify-content: space-between;
-}
-.process-statistic .header .title span{
-    font-size: 15px;
-    font-weight: bold;
-}
-.process-statistic .header .detail{
-    display: flex;
-    align-items: center;
-}
-.process-statistic .header .detail b {
-    font-size: 25px;
-}
-.process-statistic .header .detail img{
-    width: var(--process-statistic-icon-cong-size);
-}
-.process-statistic .header .detail div{
-    display: flex;
-    align-items: center;
-    background-color: var(--nav-background);
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
-}
-.underline{
-    width: 100%;
-    border-top: 1px solid var(--nav-background);
-}
-.process-statistic .chart-area{
-    display: flex;
-    height: 120px;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-.process-statistic .chart-area .chart{
-    height: 90%;
-}
-.process-statistic .chart-area .chart div{
-    background-color: var(--process-statistic-chart-bg);
-    border-radius: 5px;
-}
-.level10{
-    height: 10%;
-}
-.level50{
-    height: 50%;
-}
-.level80{
-    height: 80%;
-}
-.level40{
-    height: 40%;
-}
-.level100{
-    height: 100%;
-}
-.process-area .my-cources{
-    margin-top: 20px;
-}
-.process-area{
-    margin: 1%;
 }
