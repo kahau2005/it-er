@@ -2,6 +2,7 @@ const popularCoursesParent = document.querySelector('.content-area .content .cou
 const allPageElements = document.querySelector('#all .content');
 const mainContainer = document.querySelector('main');
 const courseDetailParent = document.getElementById('course-details');
+const navCourseContainer = document.querySelector('#home .nav');
 var allCoursesData = [
     {
         course_name: 'Lập trình C# .Net',
@@ -941,16 +942,22 @@ var allCoursesData = [
 
 
 
-
+loadNavCourses();
 loadPopularCourse();
 loadAllCourses();
 
 
-
+function loadNavCourses(){
+    navCourseContainer.innerHTML = `<div onclick="gotoAll()">
+                                        <img src="../assets/icon/icon_more.png" alt="IC ALL">
+                                        <p>Tất cả</p>
+                                    </div>`;
+    for(var i = 0; i < allCoursesData.length ; i++){
+        navCourseContainer.innerHTML += navItems(allCoursesData[i]);
+    }
+}
 function redirect(element){
     const data = JSON.parse(element.getAttribute('data-course'));
-    console.log(mainContainer);
-    console.log(data);
     courseDetailParent.innerHTML = loadCourseDetails(data);
     window.location = '#course-details'
 }
@@ -1042,6 +1049,12 @@ function lessonCard(data){
                                 <p>${data.lessons.length} bài học</p>
                             </div>
                         </div>`
+}
+function navItems(data){
+    return `<div onclick='redirect(this)' data-course='${JSON.stringify(data)}'>
+                    <img src="${data.icon}" alt="IC ALL">
+                    <p>${data.course_name}</p>
+            </div>`;
 }
 function AllCourseFrame(data){
     return `<div class="course-container">
