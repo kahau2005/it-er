@@ -40,7 +40,10 @@
     user-select: none;
     /* color: #fbd4e8; */
     color: white;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(80, 80, 80, 0.336) transparent;
 }
+
 body{
     display: flex;
     height: 100vh;
@@ -111,9 +114,7 @@ body{
     background-color: rgba(202, 202, 202, 0.507);
     cursor: pointer;
 }
-.notification-panel::-webkit-scrollbar{
-    display: none;
-}
+
 .notif-container{
     position: absolute;
     overflow-y: scroll;
@@ -121,9 +122,7 @@ body{
     height: 82%;
     width: 90%;
 }
-.notif-container::-webkit-scrollbar{
-    border: 0;
-}
+
 .notif-frame{
     display: flex;
     align-items: center;
@@ -181,9 +180,6 @@ main{
     box-sizing: border-box;
     overflow: hidden;
     margin-right: 20px;
-}
-main::-webkit-scrollbar{
-    border: 0;
 }
 .content-area{
     width: 100%;
@@ -253,9 +249,7 @@ main::-webkit-scrollbar{
     z-index: 1;
     backdrop-filter: blur(10px);
 }
-.content-area .nav::-webkit-scrollbar{
-    border: 0;
-}
+
 .content-area .nav div{
     display: flex;
     justify-content: center;
@@ -290,9 +284,7 @@ main::-webkit-scrollbar{
     height: 75%;
     overflow-y: scroll;
 }
-.content-area .content::-webkit-scrollbar{
-    border: 0;
-}
+
 .content-area .content .course-container{
     display: flex;
     flex-direction: column;
@@ -325,10 +317,6 @@ main::-webkit-scrollbar{
     display: flex;
     overflow-x: scroll;
 }
-.content-area .content .course-container .courses-show::-webkit-scrollbar{
-    border: 0;
-}
-
 .course-card{
     display: flex;
     flex-direction: column;
@@ -392,9 +380,7 @@ main::-webkit-scrollbar{
     display: flex;
     overflow-x: scroll;
 }
-.lesson-container::-webkit-scrollbar{
-    border: 0;
-}
+
 .lesson-container > img {
     width: 300px;
     height: 150px;
