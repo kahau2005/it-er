@@ -2,6 +2,7 @@ const popularCoursesParent = document.querySelector('.content-area .content .cou
 const allPageElements = document.querySelector('#all .content');
 const mainContainer = document.querySelector('main');
 const courseDetailParent = document.getElementById('course-details');
+const lessonDetailsParent = document.getElementById('lessons-details');
 const navCourseContainer = document.querySelector('#home .nav');
 const notificationPanel =  document.querySelector('.notification-panel');
 var allCoursesData = [
@@ -980,6 +981,63 @@ function loadPopularCourse(){
             popularCoursesParent.innerHTML += popularCourseCard(data[i]);
         }
 }
+function loadLessonsDetails(data){
+    return `<div class="header">
+                <img src="${data.banner}" alt="contain-bg">
+                <div class="blur-effect"></div>
+                <div class="text-container">
+                    <p>${data.lessons[0].name}</p>
+                    <p>${data.name}</p>
+                </div>
+                <div class="back-icon-container">
+                    <img onclick='gotoAll()' src="../assets/icon/left-arrow.png" alt="">
+                    <p>Tất cả khóa học</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="course-container">
+                    <div class="lesson-container wrap-items">
+                         <div>
+                            <div class="video-lesson">
+                                ${data.lessons[0].data}
+                            </div>
+                            <div class="navigate-lesson">
+                                <div>Danh sách các bài học</div>
+                                <div class="list-lesson">
+                                    ${loadAlllessonsOfCourse(data)}
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div>
+                        <h2>Giới thiệu khóa học</h2>
+                        <p>${data.introduction}</p>
+                        <h2>Nội dung</h2>
+                        <p>${data.content}</p>
+                        <h2>Yêu cầu</h2>
+                        <p>${data.course_requirement}</p>
+                    </div>
+                    <div>
+                        <input placeholder="Gửi câu hỏi của bạn" type="text" id="question">
+                        <img src="../assets/icon/icon-send.png" alt="ic send">
+                    </div>
+                </div>
+            </div>`;
+}
+function loadAlllessonsOfCourse(data){
+    var html = '';
+    for(var i = 0; i < data.lessons.length; i++){
+        html += `<div onclick ='ItemsLessonClick(this)' item='${JSON.stringify(data.lessons[i])}'>${i+1}. ${data.lessons[i].name}</div>`
+    }
+    return html;
+}
+function ItemsLessonClick(element){
+    const title = document.querySelector('#lessons-details .header .text-container p:first-child');
+    const video = document.querySelector('#lessons-details .content .course-container .lesson-container > div .video-lesson');
+    var data = JSON.parse(element.getAttribute('item'));
+    title.innerHTML = data.name;
+    video.innerHTML = data.data;
+}
 function loadCourseDetails(data){
     return `<div class="header">
                 <img src="${data.banner}" alt="contain-bg">
@@ -1047,7 +1105,7 @@ function popularCourseCard(data){
                         </div>`
 }
 function lessonCard(data){
-    return `<div class="course-card">
+    return `<div onclick='gotoLessonDetail(this)' lesson-data='${JSON.stringify(data)}' class="course-card">
                             <img src="${data.banner}" alt="android-course">
                             <p class="course-title">${data.name}</p>
                             <div>
@@ -1090,6 +1148,12 @@ function sortByViewer(){
         }
     }
     return a;
+}
+function gotoLessonDetail(element){
+    var data = JSON.parse(element.getAttribute('lesson-data'));
+    console.log(data);
+    lessonDetailsParent.innerHTML = loadLessonsDetails(data);
+    window.location = '#lessons-details';
 }
 function gotoHome(){
     window.location = '#home'
