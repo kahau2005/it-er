@@ -14,6 +14,7 @@ var allCoursesData = [
         originPrice: '300.000',
         viewer: 5654,
         hours: 140,
+        buy: false,
         courses: [
             {
                 name: 'Lập trình phần mềm Quản lý quán cafe với C# Winform',
@@ -328,6 +329,7 @@ var allCoursesData = [
         originPrice: '300.000',
         viewer: 2637,
         hours: 124,
+        buy: false,
         courses: [
             {
                 name: 'Khóa học lập trình C++ căn bản',
@@ -413,6 +415,7 @@ var allCoursesData = [
         originPrice: '150.000',
         viewer: 5647,
         hours: 76,
+        buy: false,
         courses: [
             {
                 name: 'Khóa học lập trình Android cơ bản',
@@ -502,6 +505,7 @@ var allCoursesData = [
         originPrice: '500.000',
         viewer: 1637,
         hours: 134,
+        buy: false,
         courses: [
             {
                 name: 'Lập trình Java cơ bản đến hướng đối tượng',
@@ -591,6 +595,7 @@ var allCoursesData = [
         originPrice: '350.000',
         viewer: 3532,
         hours: 86,
+        buy: false,
         courses: [
             {
                 name: 'Machine Learning cơ bản với NumPy',
@@ -681,6 +686,7 @@ var allCoursesData = [
         originPrice: '400.000',
         viewer: 2324,
         hours: 212,
+        buy: false,
         courses: [
             {
                 name: 'Khóa học JavaScript cơ bản',
@@ -713,6 +719,7 @@ var allCoursesData = [
         originPrice: '300.000',
         viewer: 4356,
         hours: 90,
+        buy: false,
         courses: [
             {
                 name: 'Lập trình Front End cơ bản với website Landing Page',
@@ -790,6 +797,7 @@ var allCoursesData = [
         originPrice: '0',
         viewer: 4054,
         hours: 40,
+        buy: true,
         courses: [
             {
                 name: 'Phân tích thiết kế phần mềm',
@@ -920,6 +928,7 @@ var allCoursesData = [
         originPrice: '0',
         viewer: 3454,
         hours: 20,
+        buy: true,
         courses: [
             {
                 name: 'Dành cho người mới',
@@ -1074,15 +1083,15 @@ function loadCourseDetails(data){
             <div class="content">
                 <div class="course-container">
                     <div class="lesson-container wrap-items">
-                         ${loadCourses(data.courses)}
+                         ${loadCourses(data.courses, data.buy)}
                     </div>
                 </div>
             </div>`;
 }
-function loadCourses(data){
+function loadCourses(data, isBuy){
     var html = '';
     for(var i = 0; i < data.length; i++){
-        html += lessonCard(data[i]);
+        html += lessonCard(data[i], isBuy);
     }
     return html;
 }
@@ -1104,8 +1113,8 @@ function popularCourseCard(data){
                             </div>
                         </div>`
 }
-function lessonCard(data){
-    return `<div onclick='gotoLessonDetail(this)' lesson-data='${JSON.stringify(data)}' class="course-card">
+function lessonCard(data, isBuy){
+    return `<div onclick='gotoLessonDetail(this)' isBuy='${isBuy}' lesson-data='${JSON.stringify(data)}' class="course-card">
                             <img src="${data.banner}" alt="android-course">
                             <p class="course-title">${data.name}</p>
                             <div>
@@ -1131,7 +1140,7 @@ function AllCourseFrame(data){
                     </div>
                     <div class="courses-show">
                         
-                            ${loadCourses(data.courses)}
+                            ${loadCourses(data.courses, data.buy)}
                         
                     </div>
                 </div>`;
@@ -1151,9 +1160,14 @@ function sortByViewer(){
 }
 function gotoLessonDetail(element){
     var data = JSON.parse(element.getAttribute('lesson-data'));
-    console.log(data);
-    lessonDetailsParent.innerHTML = loadLessonsDetails(data);
-    window.location = '#lessons-details';
+    var isBuy = element.getAttribute('isBuy');
+    if(isBuy === "false"){
+        alert('Khóa học chưa được mua!');
+    }else{
+        lessonDetailsParent.innerHTML = loadLessonsDetails(data);
+        window.location = '#lessons-details';
+    }
+    
 }
 function gotoHome(){
     window.location = '#home'
