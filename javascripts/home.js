@@ -1087,7 +1087,7 @@ function loadCourses(data){
     return html;
 }
 function popularCourseCard(data){
-    return `<div class="course-card">
+    return `<div onclick='redirect(this)' class="course-card" data-course='${JSON.stringify(data)}'>
                             <img src="${data.banner}" alt="android-course">
                             <p class="course-title">${data.course_name}</p>
                             <p class="course-price">${data.price} &#273;</p>
