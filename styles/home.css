@@ -743,12 +743,17 @@ background-color: rgba(78, 78, 78, 0.329);
     }
     #lessons-details .content .course-container > div:nth-child(2) p{
         font-size: 15px;
+        
     }
     .notification-panel{
         top: 100%;
         left: -300px;
         width: 400px;
         animation: notif-animation-respo 0.2s ease-in;
+    }
+    .dlg-content{
+        width:300px;
+        text-align: center;
     }
         
 }
