@@ -30,12 +30,15 @@
     --process-friends-icon-size: 30px;
     --process-friends-next-icon-size: 15px;
     --process-friends-text-size: 18px;
-    --process-friends-text-margin-left: 15px;
+    --process-friends-text-margin-left: 15SSSSpx;
     --process-statistic-margin-top: 20px;
     --process-statistic-icon-cong-size: 20px;
     --process-statistic-chart-bg: #bcf3dc;
 }
 *{
+    font-family: "Raleway", sanSSs-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     margin: 0;
     user-select: none;
     /* color: #fbd4e8; */
@@ -49,6 +52,7 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: var(--background-color);
+    overflow: hidden;
 }
 
 .container{
@@ -65,6 +69,8 @@ body{
     background-color: var(--nav-background);
     border-radius: var(--nav-corners);
     margin: var(--nav-container-margin);
+    height: 100%;
+   
 }
 .nav-container > div {
     display: flex;
@@ -559,6 +565,67 @@ background-color: rgba(78, 78, 78, 0.329);
     margin-left: 20px;
     cursor: pointer;
 }
+.dialog{
+    z-index: 3;
+    background-color: #000000a1;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.dlg-content{
+    margin: 20px;
+    position: absolute;
+    width: 500px;
+    background-color: #8383835b;
+    padding: 20px;
+    border-radius: 20px;
+    animation: dialog-appear 0.5s ease-in;
+}
+.dlg-content h1{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.dlg-content > p{
+    font-size: 15px;
+}
+.dlg-content > .dlg-course{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dlg-content > .dlg-course > img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    margin: 0 20px;
+}
+.dlg-content > .dlg-course > p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.dlg-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.dlg-button button {
+    background-color: transparent;
+    outline: none;
+    border: 2px white solid;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 @media only screen and (max-width: 700px){
     body{
         flex-direction: column;
@@ -567,6 +634,7 @@ background-color: rgba(78, 78, 78, 0.329);
         flex-direction: row;
         justify-content: center;
         z-index: 2;
+        height: auto;
     }
     .nav-container > div {
         flex-direction: row;
@@ -683,6 +751,23 @@ background-color: rgba(78, 78, 78, 0.329);
         animation: notif-animation-respo 0.2s ease-in;
     }
         
+}
+@keyframes dialog-appear {
+    0%{
+        scale: 0.7;
+    }
+    25%{
+        scale: 1.1;
+    }
+    50%{
+        scale: 0.8;
+    }
+    75%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
 }
 @keyframes notif-animation {
     from{

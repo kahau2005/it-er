@@ -5,6 +5,9 @@ const courseDetailParent = document.getElementById('course-details');
 const lessonDetailsParent = document.getElementById('lessons-details');
 const navCourseContainer = document.querySelector('#home .nav');
 const notificationPanel =  document.querySelector('.notification-panel');
+const dlgButtonCancle = document.querySelector('.dlg-btn-cancle');
+const dialogParent = document.querySelector('.dialog-parent');
+const dialog = document.querySelector('.dialog-parent');
 var allCoursesData = [
     {
         course_name: 'Lập trình C# .Net',
@@ -956,9 +959,6 @@ var isNotiPanelShow = false;
 loadNavCourses();
 loadPopularCourse();
 loadAllCourses();
-
-
-
 function showNotificationPanel(){
     isNotiPanelShow = !isNotiPanelShow;
     notificationPanel.style.display = (isNotiPanelShow) ? 'block' : 'none';
@@ -975,6 +975,15 @@ function loadNavCourses(){
 function redirect(element){
     const data = JSON.parse(element.getAttribute('data-course'));
     courseDetailParent.innerHTML = loadCourseDetails(data);
+    const buyFrame = document.querySelector('.price');
+    buyFrame.style.display = (data.buy == false) ? 'flex' : 'none';
+    if(data.buy == false){
+        buyFrame.style.display = 'flex';
+        
+    }else{
+        buyFrame.style.display = 'none';
+        //dialogParent.innerHTML = '';
+    }
     window.location = '#course-details'
 }
 function loadAllCourses(){
@@ -1048,7 +1057,7 @@ function ItemsLessonClick(element){
     video.innerHTML = data.data;
 }
 function loadCourseDetails(data){
-    return `<div class="header">
+    var html =  `<div class="header">
                 <img src="${data.banner}" alt="contain-bg">
                 <div class="blur-effect"></div>
                 <div class="text-container">
@@ -1087,9 +1096,11 @@ function loadCourseDetails(data){
                     </div>
                 </div>
             </div>`;
+    return html;
 }
 function loadCourses(data, isBuy){
     var html = '';
+    console.log(data);
     for(var i = 0; i < data.length; i++){
         html += lessonCard(data[i], isBuy);
     }
@@ -1140,10 +1151,13 @@ function AllCourseFrame(data){
                     </div>
                     <div class="courses-show">
                         
-                            ${loadCourses(data.courses, data.buy)}
+                        ${loadCourses(data.courses, data.buy)}
                         
                     </div>
                 </div>`;
+}
+function hideDialog(){
+    dialog.style.display = 'none';
 }
 function sortByViewer(){
     var a = allCoursesData;
@@ -1162,7 +1176,8 @@ function gotoLessonDetail(element){
     var data = JSON.parse(element.getAttribute('lesson-data'));
     var isBuy = element.getAttribute('isBuy');
     if(isBuy === "false"){
-        alert('Khóa học chưa được mua!');
+        dialog.style.display = 'flex';
+       
     }else{
         lessonDetailsParent.innerHTML = loadLessonsDetails(data);
         window.location = '#lessons-details';

@@ -404,12 +404,15 @@ footer > p{
         position: relative;
         display: block;
         height: 100px;
-        right: 50px;
+        right: 40px;
         padding-top: 20px;
     }
     .more img {
         cursor: pointer;
         position: absolute;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
         right: 0;
     }
     .welcome .nav{

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/icon/app_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="..//styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>IT-ER</title>
 </head>
 <body>
@@ -91,7 +94,7 @@
         </div>
     </nav>
     <main>
-        <section id="home" class="content-area">
+        <div id="home" class="content-area">
             <div class="header">
                 <img src="../assets/img/home-contain-bg.jpg" alt="contain-bg">
                 <div class="blur-effect"></div>
@@ -145,8 +148,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="all" class="content-area">
+        </div>
+        <div id="all" class="content-area">
             <div class="header">
                 <img src="../assets/img/all-bg.jpg" alt="contain-bg">
                 <div class="blur-effect"></div>
@@ -163,12 +166,27 @@
             <div style="margin-top: 20px;" class="content">
                
             </div>
-        </section>
-        <section id="course-details" class="content-area">
-        </section>
-        <section id="lessons-details" class="content-area">
+        </div>
+        <div id="course-details" class="content-area">
+        </div>
+        <div id="lessons-details" class="content-area">
             
-        </section>
+        </div>
+        <div class="dialog-parent">
+            <div class="dialog">
+                <div class="dlg-content">
+                    <h1>Thông báo</h1>
+                    <div class="dlg-course">
+                        <img src="../assets/img/course-locked.gif">
+                        <p>Bạn chưa sở hữu khóa học này</p>
+                    </div>
+                    <p>Mời bạn mua khóa học này để khám phá kiến thức bổ ích mà khóa học mang lại</p>
+                    <div class="dlg-button">
+                        <button onclick='hideDialog()' class="dlg-btn-cancle">Đóng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="../javascripts/home.js"></script>
 </body>
