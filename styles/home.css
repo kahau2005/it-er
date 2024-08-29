@@ -63,6 +63,9 @@ body{
     background-color: var(--background-color);
 }
 .nav-container{
+    position: fixed;
+    top: 0;
+    z-index: 4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -187,6 +190,7 @@ main{
     box-sizing: border-box;
     overflow: hidden;
     margin-right: 20px;
+    margin-left: 90px;
 }
 .content-area{
     width: 100%;
@@ -631,6 +635,7 @@ background-color: rgba(78, 78, 78, 0.329);
         flex-direction: column;
     }
     .nav-container{
+        width: 100%;
         flex-direction: row;
         justify-content: center;
         z-index: 2;
@@ -755,7 +760,10 @@ background-color: rgba(78, 78, 78, 0.329);
         width:300px;
         text-align: center;
     }
-        
+    main{
+        margin-top: 50px;
+        margin-left: 0;
+    }
 }
 @keyframes dialog-appear {
     0%{
