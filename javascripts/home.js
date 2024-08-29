@@ -958,6 +958,9 @@ var isNotiPanelShow = false;
 loadNavCourses();
 loadPopularCourse();
 loadAllCourses();
+window.addEventListener('resize',() => {
+    gotoHome();
+});
 function showNotificationPanel(){
     isNotiPanelShow = !isNotiPanelShow;
     notificationPanel.style.display = (isNotiPanelShow) ? 'block' : 'none';
