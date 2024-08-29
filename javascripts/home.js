@@ -1188,3 +1188,4 @@ function gotoHome(){
 function gotoAll(){
     window.location = '#all'
 }
+
