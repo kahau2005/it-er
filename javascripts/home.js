@@ -6,8 +6,7 @@ const lessonDetailsParent = document.getElementById('lessons-details');
 const navCourseContainer = document.querySelector('#home .nav');
 const notificationPanel =  document.querySelector('.notification-panel');
 const dlgButtonCancle = document.querySelector('.dlg-btn-cancle');
-const dialogParent = document.querySelector('.dialog-parent');
-const dialog = document.querySelector('.dialog-parent');
+const dialog = document.querySelector('.dialog');
 var allCoursesData = [
     {
         course_name: 'Lập trình C# .Net',
@@ -982,7 +981,6 @@ function redirect(element){
         
     }else{
         buyFrame.style.display = 'none';
-        //dialogParent.innerHTML = '';
     }
     window.location = '#course-details'
 }

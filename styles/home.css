@@ -566,6 +566,7 @@ background-color: rgba(78, 78, 78, 0.329);
     cursor: pointer;
 }
 .dialog{
+    display: none;
     z-index: 3;
     background-color: #000000a1;
     backdrop-filter: blur(10px);
@@ -574,7 +575,6 @@ background-color: rgba(78, 78, 78, 0.329);
     bottom: 0;
     left: 0;
     right: 0;
-    display: flex;
     align-items: center;
     justify-content: center;
     
