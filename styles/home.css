@@ -761,7 +761,7 @@ background-color: rgba(78, 78, 78, 0.329);
         text-align: center;
     }
     main{
-        margin-top: 50px;
+        padding-top: 50px;
         margin-left: 0;
     }
 }
