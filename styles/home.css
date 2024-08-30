@@ -797,7 +797,7 @@ background-color: rgba(78, 78, 78, 0.329);
         scale: 0.8;
     }
     .user-avt-area .user-setting{
-        left: -50px;
+        left: -100px;
         top: 60px;
         animation: user-setting-anim 0.2s linear;
     }
