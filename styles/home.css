@@ -95,6 +95,45 @@ body{
 .nav-icon-bg:hover .nav-icon{
     width: 40px;
 }
+.user-avt-area{
+    display: block;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.user-avt-area .user-setting{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 70px;
+    background-color: #313131a8;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    z-index: 3;
+    width: 200px;
+    height: 100px;
+    cursor: default;
+    animation: notif-animation 0.2s linear;
+}
+.user-setting img{
+    filter: invert(1);
+    width: 20px;
+}
+.user-setting > div {
+    display: flex;
+    cursor: pointer;
+}
+.user-setting .line{
+    border-top: 1px white solid;
+    margin: 10px;
+    width: 80%;
+}
+.user-setting > div > span{
+    margin-left: 10px;
+}
 .notification-panel{
     display: none;
     background-color: rgba(0, 0, 0, 0.541);
@@ -640,8 +679,6 @@ background-color: rgba(78, 78, 78, 0.329);
         flex-direction: row;
     }
     .nav-icon-bg{
-        width: 5px;
-        height: 5px;
         margin: 0;
         scale: 0.7;
     }
@@ -755,7 +792,25 @@ background-color: rgba(78, 78, 78, 0.329);
         width:300px;
         text-align: center;
     }
+    .user-avt-area{
+        margin: 0;
+        scale: 0.8;
+    }
+    .user-avt-area .user-setting{
+        left: -50px;
+        top: 60px;
+        animation: user-setting-anim 0.2s linear;
+    }
         
+}
+@keyframes user-setting-anim{
+    from{
+        opacity: 0;
+        top: 40px;
+    }to{
+        opacity: 1;
+        top: 60px;
+    }
 }
 @keyframes dialog-appear {
     0%{

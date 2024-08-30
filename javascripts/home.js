@@ -7,6 +7,7 @@ const navCourseContainer = document.querySelector('#home .nav');
 const notificationPanel =  document.querySelector('.notification-panel');
 const dlgButtonCancle = document.querySelector('.dlg-btn-cancle');
 const dialog = document.querySelector('.dialog');
+const userSettingPanel = document.querySelector('.user-setting');
 var allCoursesData = [
     {
         course_name: 'Lập trình C# .Net',
@@ -953,12 +954,22 @@ var allCoursesData = [
     },
 ];
 var isNotiPanelShow = false;
-
+var isUserSettingShow = false;
 
 loadNavCourses();
 loadPopularCourse();
 loadAllCourses();
-
+function showUserSetting(){
+    if(isUserSettingShow){
+        userSettingPanel.style.display = 'none';
+    }else{
+        userSettingPanel.style.display = 'flex';
+    }
+    isUserSettingShow = !isUserSettingShow;
+}
+function logout(){
+    window.location = "login.html"
+}
 function showNotificationPanel(){
     isNotiPanelShow = !isNotiPanelShow;
     notificationPanel.style.display = (isNotiPanelShow) ? 'block' : 'none';
