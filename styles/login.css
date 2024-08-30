@@ -36,7 +36,7 @@ body{
 .introduction{
     position: relative;
     width: 50%;
-    margin-right: 30px;
+    margin: 30px;
 }
 .intr-doc{
     position: absolute;
@@ -65,12 +65,21 @@ body{
     margin-top: 10px;
 }
 .login-area{
-    padding: 20px;
     width: 50%;
-    display: block;
+    max-width: 570px;
+    display: flex;
     background-color: rgba(114, 114, 114, 0.24);
     border-radius: 20px;
     backdrop-filter: blur(20px);
+    position: relative;
+    overflow-x: hidden;
+}
+.login-area .container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 .lg-header{
     display:flex;
@@ -109,7 +118,7 @@ body{
 .username .inp{
     position: absolute;
     left: 0;
-    right: 30px;
+    right: 20px;
     height: 50px;
     background-color: rgba(219, 219, 219, 0.295);
     outline: none;
@@ -137,11 +146,12 @@ body{
     cursor: pointer;
 }
 .btn-login{
+    position: relative;
     width: 80%;
     height: 50px;
     font-size: 15px;
     font-weight: bold;
-    margin: 30px;
+    margin: 20px;
     background-color: #6215c752;
     color: white;
     border: none;
@@ -196,9 +206,69 @@ body{
     text-align: center;
     font-size: 15px;
 }
+.forget-password{
+    position: relative;
+    height: 30px;
+    margin-top: 20px;
+}
+.forget-password > span{
+    position: absolute;
+    right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+}
 .lg-content > p > span{
     color: #a56cf0;
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name-modify{
+    margin: 20px 0 0 10px;
+}
+.register-modify{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lg-tip{
+    margin-top: 20px;
+}
+.login-animatetion{
+    animation:  login-animate 0.3s linear;
+}
+.register-animation{
+    animation:  register-animate 0.3s linear;
+}
+@keyframes register-animate{
+    0%{
+        right: -100%;
+        opacity: 0;
+    }
+    80%{
+        right: 10%;
+        opacity: 0.2;
+    }
+    100%{
+        right: 0;
+        opacity: 1;
+    }
+}
+@keyframes login-animate{
+    0%{
+        left: -100%;
+        opacity: 0;
+    }
+    80%{
+        left: 10%;
+        opacity: 0.2;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
 }

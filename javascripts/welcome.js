@@ -43,7 +43,7 @@ function hideNav(){
         navFrame.style.overflow = 'hidden';
         navFrame.classList.remove('nav-background');
 }
-function gotoHomePage(){
-    window.location = 'views/home.html';
+function gotoLoginPage(){
+    window.location = 'views/login.html';
 }
 
