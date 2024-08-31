@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/payment.css">
+    <title>Thanh Toán</title>
+</head>
+<body>
+    <div class="container">
+        <div class="select-payment-method">
+            <div class="back-navigate">
+                <img src="../assets/icon/left-arrow.png" alt="">
+                <span>Quay lại</span>
+            </div>
+            <div class="all-payment">
+                <span>Chọn phương thức thanh toán</span>
+                <div class="payment-frame">
+                    <input type="radio" name="payment" id="momo">
+                    <div class="payment-info">
+                        <img style="filter: none;" src="../assets/icon/icon-momo.webp" alt="momo">
+                        <span>Thanh toán bằng momo</span>
+                    </div>
+                </div>
+                <div class="payment-frame">
+                    <input type="radio" name="payment" id="momo">
+                    <div class="payment-info">
+                        <img src="../assets/icon/icon-qr.png" alt="momo">
+                        <span>Thanh toán bằng QR code</span>
+                    </div>
+                </div>
+                <div class="payment-frame">
+                    <input type="radio" name="payment" id="momo">
+                    <div class="payment-info">
+                        <img src="../assets/icon/icon-credit-card.png" alt="momo">
+                        <span>Thanh toán bằng thẻ ghi nợ / tín dụng</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="course-info-frame">
+                    <p>Số tiền cần thanh toán</p>
+                    <p class="price">20.000 &#8363;</p>
+                    <div class="course-info">
+                        <img src="../assets/img/CPlusPlusBasic.jpg" alt="ic-cpp">
+                        <span>Khóa học lập trình C++</span>
+                    </div>
+                    <div class="secure">
+                        <img src="../assets/icon/icon-check.png" alt="check">
+                        <span>Thanh toán của bạn được bảo mật an toàn với công nghệ mã hóa tiên tiến.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="add-payment-method">
+            <p>Thanh Toán</p>
+            <p class="summary">Để đảm bảo quá trình thanh toán diễn ra một cách suôn sẻ và thành công, vui lòng kiểm tra và xác nhận tất cả các thông tin bạn đã cung cấp trước khi hoàn tất giao dịch.</p>
+            <div class="add-payment-container">
+                <div class="momo-container">
+                    <span>Các ví momo đã liên kết với IT-ER</span>
+                    <div class="all-momo">
+                        <div class="payment-frame">
+                            <input type="radio" name="payment-mm" id="momo">
+                            <div class="payment-info">
+                                <img src="../assets/icon/icon-momo.png" alt="momo">
+                                <span>*****753</span>
+                            </div>
+                        </div>
+                        <div class="payment-frame">
+                            <input type="radio" name="payment-mm" id="momo">
+                            <div class="payment-info">
+                                <img src="../assets/icon/icon-momo.png" alt="momo">
+                                <span>*****867</span>
+                            </div>
+                        </div>
+                        <div class="payment-frame">
+                            <input type="radio" name="payment-mm" id="momo">
+                            <div class="payment-info">
+                                <img src="../assets/icon/icon-momo.png" alt="momo">
+                                <span>*****224</span>
+                            </div>
+                        </div>
+                        <div style="cursor: pointer;" class="payment-frame">
+                            <div class="payment-info">
+                                <img style="filter: invert(1);" src="../assets/icon/icon-add.png" alt="momo">
+                                <span>Thêm ví momo mới</span>
+                            </div>
+                        </div>
+                        <div class="discount-frame">
+                            <p>Nhập mã giảm giá (Tùy chọn)</p>
+                            <div>
+                                <input type="text">
+                                <button>Xác nhận</button>
+                            </div>
+                        </div>
+                        <div class="pay-now">
+                            <button class="btn-pay-now">Thanh toán ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

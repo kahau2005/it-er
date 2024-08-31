@@ -681,6 +681,8 @@ background-color: rgba(78, 78, 78, 0.329);
     .nav-icon-bg{
         margin: 0;
         scale: 0.7;
+        height: 10px;
+        width: 10px;
     }
     .course-card{
         width: 150px;
@@ -797,7 +799,7 @@ background-color: rgba(78, 78, 78, 0.329);
         scale: 0.8;
     }
     .user-avt-area .user-setting{
-        left: -100px;
+        left: -150px;
         top: 60px;
         animation: user-setting-anim 0.2s linear;
     }
