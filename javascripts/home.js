@@ -10,7 +10,7 @@ const dialog = document.querySelector('.dialog');
 const userSettingPanel = document.querySelector('.user-setting');
 var allCoursesData = [
     {
-        course_name: 'Lập trình C# .Net',
+        course_name: 'Lập trình C Sharp dotNet',
         icon: '../assets/icon/icon-dot-net.png',
         banner: '../assets/img/dot-net-course.png',
         price: '250.000',
@@ -1096,7 +1096,7 @@ function loadCourseDetails(data){
                         <p class="course-price">${data.price} &#273</p>
                         <p class="course-price-discount">${data.originPrice} &#273</p>
                     </div>
-                    <div class="btn-buy">Mua Ngay</div>
+                    <div onclick="gotoPayment(this)" payment-data='${JSON.stringify(data)}' class="btn-buy">Mua Ngay</div>
                 </div>
             </div>
             <div class="content">
@@ -1110,7 +1110,6 @@ function loadCourseDetails(data){
 }
 function loadCourses(data, isBuy){
     var html = '';
-    console.log(data);
     for(var i = 0; i < data.length; i++){
         html += lessonCard(data[i], isBuy);
     }
@@ -1200,4 +1199,8 @@ function gotoHome(){
 function gotoAll(){
     window.location = '#all'
 }
-
+function gotoPayment(element){
+    var data = element.getAttribute('payment-data');
+    var jsData = JSON.parse(data);
+    window.location =`payment.html?couse_name=${jsData.course_name}&price=${jsData.price}&banner=${jsData.banner}`;
+}

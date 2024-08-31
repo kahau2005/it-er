@@ -183,3 +183,113 @@ body{
     cursor: pointer;
     border-radius: 10px;
 }
+.qr-container{
+    margin: 20px 0px;
+}
+.qr-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+}
+.qr-inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.qr-inf > img{
+    filter: invert(1);
+    border: 2px rgb(113, 0, 128) solid;
+    border-radius: 20px;
+    width: 70%;
+}
+.qr-inf > span{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.qr-summary{
+    font-size: 13px;
+}
+.credit-container{
+    width: 100%;
+}
+.credit-name{
+    display: block;
+    width: 100%;
+}
+.credit-name > p{
+    font-size: 15px;
+}
+.credit-name > input{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(105, 105, 105, 0.151);
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.credit-number{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.credit-number > img{
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+}
+.credit-number > input{
+    background-color: rgba(105, 105, 105, 0.151);
+    border: none;
+    outline: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+.credit-date{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.credit-container > p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(196, 196, 196);
+    margin-bottom: 20px;
+}
+.secure-tip{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.secure-tip > img{
+    width: 50px;
+}
+.secure-tip > p{
+    font-size: 13px;
+    color: rgb(196, 196, 196);
+}
+@media only screen and (max-width: 800px){
+    .container{
+        flex-direction: column;
+    }
+    .select-payment-method{
+        width: 100%;
+    }
+    .add-payment-method{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
