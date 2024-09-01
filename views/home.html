@@ -19,10 +19,7 @@
             <div onclick="gotoHome()" class="nav-icon-bg">
                 <img class="nav-icon" src="../assets/icon/icon-home.png" alt="home-icon">
             </div>
-            <div class="nav-icon-bg">
-                <img class="nav-icon" src="../assets/icon/icon_schedule.png" alt="schedule-icon">
-            </div>
-            <div class="nav-icon-bg">
+            <div onclick="gotoMycourse()" class="nav-icon-bg">
                 <img class="nav-icon" src="../assets/icon/icon_book.png" alt="book-icon">
             </div>
             <div onclick="gotoAll()" class="nav-icon-bg ">
@@ -160,6 +157,27 @@
                 </div>
             </div>
         </div>
+        <div id="my-course" class="content-area">
+            <div class="header">
+                <img src="../assets/img/my-course-bg.png" alt="contain-bg">
+                <div class="blur-effect"></div>
+                <div class="text-container">
+                    <p>Khóa học của bạn</p>
+                    <p>Chúc bạn học tập vui vẻ</p>
+                </div>
+                <div class="search-container">
+                    <input placeholder="Tìm kiếm khóa học, bài giảng,..." type="search" name="search" id="search">
+                    <img class="icon-search" src="../assets/icon/icon-search.png" alt="search">
+                </div>
+            </div>
+            <div class="content">
+                <div class="course-container">
+                    <div class="courses-show wrap-items">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="all" class="content-area">
             <div class="header">
                 <img src="../assets/img/all-bg.jpg" alt="contain-bg">
@@ -173,29 +191,26 @@
                     <img class="icon-search" src="../assets/icon/icon-search.png" alt="search">
                 </div>
             </div>
-            
             <div style="margin-top: 20px;" class="content">
-               
             </div>
         </div>
         <div id="course-details" class="content-area">
         </div>
         <div id="lessons-details" class="content-area">
-            
         </div>
-            <div class="dialog">
-                <div class="dlg-content">
-                    <h1>Thông báo</h1>
-                    <div class="dlg-course">
-                        <img src="../assets/img/course-locked.gif">
-                        <p>Bạn chưa sở hữu khóa học này</p>
-                    </div>
-                    <p>Mời bạn mua khóa học này để khám phá kiến thức bổ ích mà khóa học mang lại</p>
-                    <div class="dlg-button">
-                        <button onclick='hideDialog()' class="dlg-btn-cancle">Đóng</button>
-                    </div>
+        <div class="dialog">
+            <div class="dlg-content">
+                <h1>Thông báo</h1>
+                <div class="dlg-course">
+                    <img src="../assets/img/course-locked.gif">
+                    <p>Bạn chưa sở hữu khóa học này</p>
+                </div>
+                <p>Mời bạn mua khóa học này để khám phá kiến thức bổ ích mà khóa học mang lại</p>
+                <div class="dlg-button">
+                    <button onclick='hideDialog()' class="dlg-btn-cancle">Đóng</button>
                 </div>
             </div>
+        </div>
     </main>
     <script src="../javascripts/home.js"></script>
     

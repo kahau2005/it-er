@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/payment.css">
+    <link rel="shortcut icon" href="../assets/icon/app_icon.png" type="image/x-icon">
     <title>Thanh Toán</title>
 </head>
 <body>
@@ -48,7 +49,18 @@
             <p>Thanh Toán</p>
             <p class="summary">Để đảm bảo quá trình thanh toán diễn ra một cách suôn sẻ và thành công, vui lòng kiểm tra và xác nhận tất cả các thông tin bạn đã cung cấp trước khi hoàn tất giao dịch.</p>
             <div class="add-payment-container">
-                
+            </div>
+        </div>
+        <div class="dialog">
+            <div class="dlg-container">
+                <div class="loading-icon">
+                    <img src="../assets/img/loading.gif" alt="">
+                </div>
+                <div class="status">
+                    <p>Đang xử lý thanh toán</p>
+                    <span>Vui lòng chờ trong giây lát</span>
+                </div>
+                <div onclick="canclePayProgress()" class="btn-close">Hủy</div>
             </div>
         </div>
     </div>

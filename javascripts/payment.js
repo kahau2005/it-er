@@ -1,4 +1,4 @@
-
+const dialog = document.querySelector('.dialog');
 const PaymentFrame = document.querySelector('.add-payment-container');
 const courseInfoFrame = document.querySelector('.course-info-frame');
 var momoView = `<div class="momo-container">
@@ -39,7 +39,7 @@ var momoView = `<div class="momo-container">
                             </div>
                         </div>
                         <div class="pay-now">
-                            <button class="btn-pay-now">Thanh toán ngay</button>
+                            <button onclick="showPayProgress()" class="btn-pay-now">Thanh toán ngay</button>
                         </div>
                     </div>
                 </div>`;
@@ -126,4 +126,21 @@ function payClick(){
             PaymentFrame.innerHTML = momoView;
             break;
 }
+}
+function showPayProgress(){
+    const title = document.querySelector('.status > p');
+    const summary = document.querySelector('.status > span');
+    const loadIcon = document.querySelector('.loading-icon > img');
+    dialog.style.display = 'flex';
+    setTimeout(() =>{
+        title.innerText = 'Thanh toán thành công!';
+        summary.innerText = 'Bạn sẽ được điều hướng về trang chủ trong 2 giây nữa';
+        loadIcon.src = '../assets/icon/icon-pay-successfull.png';
+        setTimeout(() => {
+            gotoHomePage();
+        }, 2000);
+    },2000);
+}
+function canclePayProgress(){
+    dialog.style.display = 'none';
 }

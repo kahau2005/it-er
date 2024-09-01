@@ -93,7 +93,7 @@ body{
 }
 .course-info > img {
     height: 200px;
-    width: 50%;
+    width: 80%;
     max-width: 300px;
     object-fit: cover;
     border-radius: 20px;
@@ -280,6 +280,58 @@ body{
 .secure-tip > p{
     font-size: 13px;
     color: rgb(196, 196, 196);
+}
+.dialog{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.dlg-container{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.loading-icon{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+}
+.loading-icon img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.status > p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.status > span{
+    color: black;
+    font-size: 13px;
+}
+.btn-close{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: red;
+    padding: 10px 20px;
+    border: 1px red solid;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 12px;
+    cursor: pointer;
 }
 @media only screen and (max-width: 800px){
     .container{

@@ -8,6 +8,9 @@ const notificationPanel =  document.querySelector('.notification-panel');
 const dlgButtonCancle = document.querySelector('.dlg-btn-cancle');
 const dialog = document.querySelector('.dialog');
 const userSettingPanel = document.querySelector('.user-setting');
+const myCourseFrame = document.querySelector('#my-course .content .course-container .courses-show');
+
+
 var allCoursesData = [
     {
         course_name: 'Lập trình C Sharp dotNet',
@@ -17,7 +20,7 @@ var allCoursesData = [
         originPrice: '300.000',
         viewer: 5654,
         hours: 140,
-        buy: false,
+        buy: true,
         courses: [
             {
                 name: 'Lập trình phần mềm Quản lý quán cafe với C# Winform',
@@ -332,7 +335,7 @@ var allCoursesData = [
         originPrice: '300.000',
         viewer: 2637,
         hours: 124,
-        buy: false,
+        buy: true,
         courses: [
             {
                 name: 'Khóa học lập trình C++ căn bản',
@@ -508,7 +511,7 @@ var allCoursesData = [
         originPrice: '500.000',
         viewer: 1637,
         hours: 134,
-        buy: false,
+        buy: true,
         courses: [
             {
                 name: 'Lập trình Java cơ bản đến hướng đối tượng',
@@ -722,7 +725,7 @@ var allCoursesData = [
         originPrice: '300.000',
         viewer: 4356,
         hours: 90,
-        buy: false,
+        buy: true,
         courses: [
             {
                 name: 'Lập trình Front End cơ bản với website Landing Page',
@@ -958,7 +961,10 @@ var isUserSettingShow = false;
 
 loadNavCourses();
 loadPopularCourse();
+loadMycourse();
 loadAllCourses();
+
+
 function showUserSetting(){
     if(isUserSettingShow){
         userSettingPanel.style.display = 'none';
@@ -1203,4 +1209,32 @@ function gotoPayment(element){
     var data = element.getAttribute('payment-data');
     var jsData = JSON.parse(data);
     window.location =`payment.html?couse_name=${jsData.course_name}&price=${jsData.price}&banner=${jsData.banner}`;
+}
+function gotoMycourse(){
+    window.location = "#my-course";
+}
+function loadMycourse(){
+    myCourseFrame.innerHTML =``;
+    for(var i = 0; i < allCoursesData.length; i++){
+        if(allCoursesData[i].buy){
+            console.log(allCoursesData[i]);
+            myCourseFrame.innerHTML += myCourseCard(allCoursesData[i]);
+        }
+    }
+}
+function myCourseCard(data){
+    return `<div onclick='redirect(this)' class="course-card" data-course='${JSON.stringify(data)}'>
+                            <img src="${data.banner}" alt="android-course">
+                            <p class="course-title">${data.course_name}</p>
+                            <div class="course-info">
+                                <div class="viewer">
+                                    <img src="../assets/icon/icon-viewer.png" alt="ic viewer">
+                                    <p>${data.viewer}</p>
+                                </div>
+                                <div class="course-duration">
+                                    <img src="../assets/icon/icon-timer.png" alt="ic timer">
+                                    <p>${data.hours} giờ</p>
+                                </div>
+                            </div>
+                        </div>`;
 }
